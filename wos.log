@@ -1,0 +1,869 @@
+2021/09/19 15:12:12 - INFO : Building Vocabulary....
+2021/09/19 15:12:12 - INFO : Loading Vocabulary from Cached Dictionary...
+2021/09/19 15:12:13 - INFO : Vocabulary of token 50002
+2021/09/19 15:12:13 - INFO : Vocabulary of label 141
+2021/09/19 15:12:13 - INFO : Loading 300-dimension token embedding from pretrained file: /dev_data/dev_data/chb/hier-project/datasets/embedding/glove.6B.300d.txt
+2021/09/19 15:12:19 - INFO : Total vocab size of token is 50002.
+2021/09/19 15:12:19 - INFO : Pretrained vocab embedding has 45961 / 50002
+2021/09/19 15:13:09 - INFO : loss: 0.677618
+2021/09/19 15:13:12 - INFO : Performance at epoch 0 --- Precision: 0.558282, Recall: 0.181564, Micro-F1: 0.274014, Macro-F1: 0.015354
+2021/09/19 15:13:12 - INFO : DEV Improve Micro-F1 0.0% --> 0.27401385124962363%
+2021/09/19 15:13:14 - INFO : Achieve best Micro-F1 on dev set, evaluate on test set
+2021/09/19 15:13:19 - INFO : Performance at epoch 0 --- Precision: 0.561216, Recall: 0.184633, Micro-F1: 0.277856, Macro-F1: 0.015661
+2021/09/19 15:13:19 - INFO : TEST Improve Micro-F1 0.0% --> 0.27785562717700285%
+2021/09/19 15:13:19 - INFO : DEV Improve Macro-F1 0.0% --> 0.015660682535925476%
+2021/09/19 15:13:19 - INFO : Achieve best Macro-F1 on dev set, evaluate on test set
+2021/09/19 15:13:23 - INFO : Performance at epoch 0 --- Precision: 0.561398, Recall: 0.184633, Micro-F1: 0.277878, Macro-F1: 0.015663
+2021/09/19 15:13:23 - INFO : TEST Improve Macro-F1 0.0% --> 0.015662879093634497%
+2021/09/19 15:13:23 - INFO : Epoch 0 Time Cost 62.73682355880737 secs.
+2021/09/19 15:14:10 - INFO : loss: 0.659231
+2021/09/19 15:14:14 - INFO : Performance at epoch 1 --- Precision: 0.609126, Recall: 0.261905, Micro-F1: 0.366309, Macro-F1: 0.021926
+2021/09/19 15:14:14 - INFO : DEV Improve Micro-F1 0.27401385124962363% --> 0.366308543788661%
+2021/09/19 15:14:16 - INFO : Achieve best Micro-F1 on dev set, evaluate on test set
+2021/09/19 15:14:21 - INFO : Performance at epoch 1 --- Precision: 0.608835, Recall: 0.263276, Micro-F1: 0.367594, Macro-F1: 0.022241
+2021/09/19 15:14:21 - INFO : TEST Improve Micro-F1 0.27785562717700285% --> 0.36759407154266194%
+2021/09/19 15:14:21 - INFO : DEV Improve Macro-F1 0.015660682535925476% --> 0.02224108316657301%
+2021/09/19 15:14:22 - INFO : Achieve best Macro-F1 on dev set, evaluate on test set
+2021/09/19 15:14:27 - INFO : Performance at epoch 1 --- Precision: 0.608835, Recall: 0.263276, Micro-F1: 0.367594, Macro-F1: 0.022241
+2021/09/19 15:14:27 - INFO : TEST Improve Macro-F1 0.015662879093634497% --> 0.02224108316657301%
+2021/09/19 15:14:27 - INFO : Epoch 1 Time Cost 63.81927824020386 secs.
+2021/09/19 15:15:14 - INFO : loss: 0.673168
+2021/09/19 15:15:17 - INFO : Performance at epoch 2 --- Precision: 0.615864, Recall: 0.308792, Micro-F1: 0.411340, Macro-F1: 0.046183
+2021/09/19 15:15:17 - INFO : DEV Improve Micro-F1 0.366308543788661% --> 0.41133997785160575%
+2021/09/19 15:15:20 - INFO : Achieve best Micro-F1 on dev set, evaluate on test set
+2021/09/19 15:15:24 - INFO : Performance at epoch 2 --- Precision: 0.615360, Recall: 0.311216, Micro-F1: 0.413371, Macro-F1: 0.047118
+2021/09/19 15:15:24 - INFO : TEST Improve Micro-F1 0.36759407154266194% --> 0.4133714972260504%
+2021/09/19 15:15:24 - INFO : DEV Improve Macro-F1 0.02224108316657301% --> 0.047117670610303246%
+2021/09/19 15:15:26 - INFO : Achieve best Macro-F1 on dev set, evaluate on test set
+2021/09/19 15:15:31 - INFO : Performance at epoch 2 --- Precision: 0.615401, Recall: 0.311270, Micro-F1: 0.413428, Macro-F1: 0.047121
+2021/09/19 15:15:31 - INFO : TEST Improve Macro-F1 0.02224108316657301% --> 0.04712120281760983%
+2021/09/19 15:15:31 - INFO : Epoch 2 Time Cost 63.72782301902771 secs.
+2021/09/19 15:16:18 - INFO : loss: 0.662452
+2021/09/19 15:16:21 - INFO : Performance at epoch 3 --- Precision: 0.665314, Recall: 0.337922, Micro-F1: 0.448198, Macro-F1: 0.078642
+2021/09/19 15:16:21 - INFO : DEV Improve Micro-F1 0.41133997785160575% --> 0.44819829753451246%
+2021/09/19 15:16:23 - INFO : Achieve best Micro-F1 on dev set, evaluate on test set
+2021/09/19 15:16:28 - INFO : Performance at epoch 3 --- Precision: 0.660095, Recall: 0.340268, Micro-F1: 0.449056, Macro-F1: 0.080428
+2021/09/19 15:16:28 - INFO : TEST Improve Micro-F1 0.4133714972260504% --> 0.4490555438522576%
+2021/09/19 15:16:28 - INFO : DEV Improve Macro-F1 0.047117670610303246% --> 0.08042796656084264%
+2021/09/19 15:16:30 - INFO : Achieve best Macro-F1 on dev set, evaluate on test set
+2021/09/19 15:16:35 - INFO : Performance at epoch 3 --- Precision: 0.660163, Recall: 0.340268, Micro-F1: 0.449071, Macro-F1: 0.080440
+2021/09/19 15:16:35 - INFO : TEST Improve Macro-F1 0.04712120281760983% --> 0.08043994040260373%
+2021/09/19 15:16:35 - INFO : Epoch 3 Time Cost 64.01295208930969 secs.
+2021/09/19 15:17:22 - INFO : loss: 0.670087
+2021/09/19 15:17:25 - INFO : Performance at epoch 4 --- Precision: 0.634189, Recall: 0.363195, Micro-F1: 0.461877, Macro-F1: 0.108706
+2021/09/19 15:17:25 - INFO : DEV Improve Micro-F1 0.44819829753451246% --> 0.46187677083773837%
+2021/09/19 15:17:27 - INFO : Achieve best Micro-F1 on dev set, evaluate on test set
+2021/09/19 15:17:32 - INFO : Performance at epoch 4 --- Precision: 0.623286, Recall: 0.358040, Micro-F1: 0.454816, Macro-F1: 0.101455
+2021/09/19 15:17:32 - INFO : TEST Improve Micro-F1 0.4490555438522576% --> 0.45481581615410605%
+2021/09/19 15:17:32 - INFO : DEV Improve Macro-F1 0.08042796656084264% --> 0.1014547090693947%
+2021/09/19 15:17:34 - INFO : Achieve best Macro-F1 on dev set, evaluate on test set
+2021/09/19 15:17:38 - INFO : Performance at epoch 4 --- Precision: 0.623286, Recall: 0.358040, Micro-F1: 0.454816, Macro-F1: 0.101455
+2021/09/19 15:17:38 - INFO : TEST Improve Macro-F1 0.08043994040260373% --> 0.1014547090693947%
+2021/09/19 15:17:38 - INFO : Epoch 4 Time Cost 63.50220608711243 secs.
+2021/09/19 15:18:26 - INFO : loss: 0.664432
+2021/09/19 15:18:29 - INFO : Performance at epoch 5 --- Precision: 0.672163, Recall: 0.417531, Micro-F1: 0.515097, Macro-F1: 0.157384
+2021/09/19 15:18:29 - INFO : DEV Improve Micro-F1 0.46187677083773837% --> 0.5150968165408598%
+2021/09/19 15:18:31 - INFO : Achieve best Micro-F1 on dev set, evaluate on test set
+2021/09/19 15:18:36 - INFO : Performance at epoch 5 --- Precision: 0.664835, Recall: 0.418378, Micro-F1: 0.513569, Macro-F1: 0.156215
+2021/09/19 15:18:36 - INFO : TEST Improve Micro-F1 0.45481581615410605% --> 0.5135691192318997%
+2021/09/19 15:18:36 - INFO : DEV Improve Macro-F1 0.1014547090693947% --> 0.15621464970656676%
+2021/09/19 15:18:38 - INFO : Achieve best Macro-F1 on dev set, evaluate on test set
+2021/09/19 15:18:42 - INFO : Performance at epoch 5 --- Precision: 0.664891, Recall: 0.418378, Micro-F1: 0.513586, Macro-F1: 0.156248
+2021/09/19 15:18:42 - INFO : TEST Improve Macro-F1 0.1014547090693947% --> 0.15624761194884984%
+2021/09/19 15:18:42 - INFO : Epoch 5 Time Cost 63.686232805252075 secs.
+2021/09/19 15:19:29 - INFO : loss: 0.663879
+2021/09/19 15:19:32 - INFO : Performance at epoch 6 --- Precision: 0.703665, Recall: 0.446927, Micro-F1: 0.546653, Macro-F1: 0.211929
+2021/09/19 15:19:32 - INFO : DEV Improve Micro-F1 0.5150968165408598% --> 0.5466525665012608%
+2021/09/19 15:19:34 - INFO : Achieve best Micro-F1 on dev set, evaluate on test set
+2021/09/19 15:19:39 - INFO : Performance at epoch 6 --- Precision: 0.695485, Recall: 0.443439, Micro-F1: 0.541573, Macro-F1: 0.204612
+2021/09/19 15:19:39 - INFO : TEST Improve Micro-F1 0.5135691192318997% --> 0.5415732527536797%
+2021/09/19 15:19:39 - INFO : DEV Improve Macro-F1 0.15621464970656676% --> 0.20461247632376878%
+2021/09/19 15:19:41 - INFO : Achieve best Macro-F1 on dev set, evaluate on test set
+2021/09/19 15:19:46 - INFO : Performance at epoch 6 --- Precision: 0.695518, Recall: 0.443386, Micro-F1: 0.541543, Macro-F1: 0.204538
+2021/09/19 15:19:46 - INFO : TEST Improve Macro-F1 0.15624761194884984% --> 0.2045380406604665%
+2021/09/19 15:19:46 - INFO : Epoch 6 Time Cost 63.65240406990051 secs.
+2021/09/19 15:20:33 - INFO : loss: 0.659385
+2021/09/19 15:20:36 - INFO : Performance at epoch 7 --- Precision: 0.699427, Recall: 0.495078, Micro-F1: 0.579773, Macro-F1: 0.258514
+2021/09/19 15:20:36 - INFO : DEV Improve Micro-F1 0.5466525665012608% --> 0.5797733556602671%
+2021/09/19 15:20:38 - INFO : Achieve best Micro-F1 on dev set, evaluate on test set
+2021/09/19 15:20:43 - INFO : Performance at epoch 7 --- Precision: 0.693228, Recall: 0.493455, Micro-F1: 0.576526, Macro-F1: 0.252055
+2021/09/19 15:20:43 - INFO : TEST Improve Micro-F1 0.5415732527536797% --> 0.576526171826433%
+2021/09/19 15:20:43 - INFO : DEV Improve Macro-F1 0.20461247632376878% --> 0.2520546205259838%
+2021/09/19 15:20:45 - INFO : Achieve best Macro-F1 on dev set, evaluate on test set
+2021/09/19 15:20:50 - INFO : Performance at epoch 7 --- Precision: 0.693228, Recall: 0.493455, Micro-F1: 0.576526, Macro-F1: 0.252055
+2021/09/19 15:20:50 - INFO : TEST Improve Macro-F1 0.2045380406604665% --> 0.2520546205259838%
+2021/09/19 15:20:50 - INFO : Epoch 7 Time Cost 64.05738997459412 secs.
+2021/09/19 15:21:37 - INFO : loss: 0.661795
+2021/09/19 15:21:40 - INFO : Performance at epoch 8 --- Precision: 0.715917, Recall: 0.546222, Micro-F1: 0.619662, Macro-F1: 0.333717
+2021/09/19 15:21:40 - INFO : DEV Improve Micro-F1 0.5797733556602671% --> 0.6196619888335596%
+2021/09/19 15:21:42 - INFO : Achieve best Micro-F1 on dev set, evaluate on test set
+2021/09/19 15:21:47 - INFO : Performance at epoch 8 --- Precision: 0.711672, Recall: 0.544376, Micro-F1: 0.616883, Macro-F1: 0.325364
+2021/09/19 15:21:47 - INFO : TEST Improve Micro-F1 0.576526171826433% --> 0.6168827253542358%
+2021/09/19 15:21:47 - INFO : DEV Improve Macro-F1 0.2520546205259838% --> 0.32536392830723465%
+2021/09/19 15:21:49 - INFO : Achieve best Macro-F1 on dev set, evaluate on test set
+2021/09/19 15:21:54 - INFO : Performance at epoch 8 --- Precision: 0.711603, Recall: 0.544323, Micro-F1: 0.616822, Macro-F1: 0.325382
+2021/09/19 15:21:54 - INFO : TEST Improve Macro-F1 0.2520546205259838% --> 0.32538191601364386%
+2021/09/19 15:21:54 - INFO : Epoch 8 Time Cost 64.19334769248962 secs.
+2021/09/19 15:22:41 - INFO : loss: 0.667454
+2021/09/19 15:22:44 - INFO : Performance at epoch 9 --- Precision: 0.724426, Recall: 0.570830, Micro-F1: 0.638521, Macro-F1: 0.371961
+2021/09/19 15:22:44 - INFO : DEV Improve Micro-F1 0.6196619888335596% --> 0.6385210534146705%
+2021/09/19 15:22:47 - INFO : Achieve best Micro-F1 on dev set, evaluate on test set
+2021/09/19 15:22:51 - INFO : Performance at epoch 9 --- Precision: 0.722847, Recall: 0.567309, Micro-F1: 0.635702, Macro-F1: 0.367298
+2021/09/19 15:22:51 - INFO : TEST Improve Micro-F1 0.6168827253542358% --> 0.6357023610779872%
+2021/09/19 15:22:51 - INFO : DEV Improve Macro-F1 0.32536392830723465% --> 0.3672977664047664%
+2021/09/19 15:22:53 - INFO : Achieve best Macro-F1 on dev set, evaluate on test set
+2021/09/19 15:22:57 - INFO : Performance at epoch 9 --- Precision: 0.722847, Recall: 0.567309, Micro-F1: 0.635702, Macro-F1: 0.367298
+2021/09/19 15:22:57 - INFO : TEST Improve Macro-F1 0.32538191601364386% --> 0.3672977664047664%
+2021/09/19 15:22:57 - INFO : Epoch 9 Time Cost 63.570860385894775 secs.
+2021/09/19 15:23:45 - INFO : loss: 0.659838
+2021/09/19 15:23:48 - INFO : Performance at epoch 10 --- Precision: 0.709252, Recall: 0.607741, Micro-F1: 0.654585, Macro-F1: 0.424842
+2021/09/19 15:23:48 - INFO : DEV Improve Micro-F1 0.6385210534146705% --> 0.6545845272206303%
+2021/09/19 15:23:50 - INFO : Achieve best Micro-F1 on dev set, evaluate on test set
+2021/09/19 15:23:55 - INFO : Performance at epoch 10 --- Precision: 0.709291, Recall: 0.602373, Micro-F1: 0.651475, Macro-F1: 0.419549
+2021/09/19 15:23:55 - INFO : TEST Improve Micro-F1 0.6357023610779872% --> 0.6514746079700763%
+2021/09/19 15:23:55 - INFO : DEV Improve Macro-F1 0.3672977664047664% --> 0.419548815616012%
+2021/09/19 15:23:57 - INFO : Achieve best Macro-F1 on dev set, evaluate on test set
+2021/09/19 15:24:01 - INFO : Performance at epoch 10 --- Precision: 0.709291, Recall: 0.602373, Micro-F1: 0.651475, Macro-F1: 0.419549
+2021/09/19 15:24:01 - INFO : TEST Improve Macro-F1 0.3672977664047664% --> 0.419548815616012%
+2021/09/19 15:24:01 - INFO : Epoch 10 Time Cost 63.67014122009277 secs.
+2021/09/19 15:24:48 - INFO : loss: 0.659032
+2021/09/19 15:24:52 - INFO : Performance at epoch 11 --- Precision: 0.766518, Recall: 0.615722, Micro-F1: 0.682894, Macro-F1: 0.447695
+2021/09/19 15:24:52 - INFO : DEV Improve Micro-F1 0.6545845272206303% --> 0.6828944456738217%
+2021/09/19 15:24:54 - INFO : Achieve best Micro-F1 on dev set, evaluate on test set
+2021/09/19 15:24:59 - INFO : Performance at epoch 11 --- Precision: 0.765877, Recall: 0.612163, Micro-F1: 0.680447, Macro-F1: 0.445373
+2021/09/19 15:24:59 - INFO : TEST Improve Micro-F1 0.6514746079700763% --> 0.6804471256210077%
+2021/09/19 15:24:59 - INFO : DEV Improve Macro-F1 0.419548815616012% --> 0.44537313925233%
+2021/09/19 15:25:01 - INFO : Achieve best Macro-F1 on dev set, evaluate on test set
+2021/09/19 15:25:05 - INFO : Performance at epoch 11 --- Precision: 0.765892, Recall: 0.612217, Micro-F1: 0.680486, Macro-F1: 0.445487
+2021/09/19 15:25:05 - INFO : TEST Improve Macro-F1 0.419548815616012% --> 0.44548741851504975%
+2021/09/19 15:25:05 - INFO : Epoch 11 Time Cost 63.69741153717041 secs.
+2021/09/19 15:25:52 - INFO : loss: 0.662860
+2021/09/19 15:25:55 - INFO : Performance at epoch 12 --- Precision: 0.769075, Recall: 0.658287, Micro-F1: 0.709381, Macro-F1: 0.502703
+2021/09/19 15:25:55 - INFO : DEV Improve Micro-F1 0.6828944456738217% --> 0.7093814950189923%
+2021/09/19 15:25:57 - INFO : Achieve best Micro-F1 on dev set, evaluate on test set
+2021/09/19 15:26:02 - INFO : Performance at epoch 12 --- Precision: 0.767579, Recall: 0.656326, Micro-F1: 0.707607, Macro-F1: 0.502731
+2021/09/19 15:26:02 - INFO : TEST Improve Micro-F1 0.6804471256210077% --> 0.7076067003212483%
+2021/09/19 15:26:02 - INFO : DEV Improve Macro-F1 0.44537313925233% --> 0.502731197690449%
+2021/09/19 15:26:04 - INFO : Achieve best Macro-F1 on dev set, evaluate on test set
+2021/09/19 15:26:09 - INFO : Performance at epoch 12 --- Precision: 0.767627, Recall: 0.656326, Micro-F1: 0.707627, Macro-F1: 0.502758
+2021/09/19 15:26:09 - INFO : TEST Improve Macro-F1 0.44548741851504975% --> 0.5027584987115072%
+2021/09/19 15:26:09 - INFO : Epoch 12 Time Cost 63.88736295700073 secs.
+2021/09/19 15:26:56 - INFO : loss: 0.659304
+2021/09/19 15:26:59 - INFO : Performance at epoch 13 --- Precision: 0.792188, Recall: 0.674381, Micro-F1: 0.728553, Macro-F1: 0.531174
+2021/09/19 15:26:59 - INFO : DEV Improve Micro-F1 0.7093814950189923% --> 0.7285529530104901%
+2021/09/19 15:27:01 - INFO : Achieve best Micro-F1 on dev set, evaluate on test set
+2021/09/19 15:27:06 - INFO : Performance at epoch 13 --- Precision: 0.788897, Recall: 0.669895, Micro-F1: 0.724542, Macro-F1: 0.525792
+2021/09/19 15:27:06 - INFO : TEST Improve Micro-F1 0.7076067003212483% --> 0.7245417661784593%
+2021/09/19 15:27:06 - INFO : DEV Improve Macro-F1 0.502731197690449% --> 0.5257919115049333%
+2021/09/19 15:27:08 - INFO : Achieve best Macro-F1 on dev set, evaluate on test set
+2021/09/19 15:27:12 - INFO : Performance at epoch 13 --- Precision: 0.788897, Recall: 0.669895, Micro-F1: 0.724542, Macro-F1: 0.525792
+2021/09/19 15:27:12 - INFO : TEST Improve Macro-F1 0.5027584987115072% --> 0.5257919115049333%
+2021/09/19 15:27:12 - INFO : Epoch 13 Time Cost 63.66609191894531 secs.
+2021/09/19 15:28:00 - INFO : loss: 0.649288
+2021/09/19 15:28:03 - INFO : Performance at epoch 14 --- Precision: 0.810238, Recall: 0.689479, Micro-F1: 0.744997, Macro-F1: 0.555801
+2021/09/19 15:28:03 - INFO : DEV Improve Micro-F1 0.7285529530104901% --> 0.7449965865401891%
+2021/09/19 15:28:05 - INFO : Achieve best Micro-F1 on dev set, evaluate on test set
+2021/09/19 15:28:10 - INFO : Performance at epoch 14 --- Precision: 0.809099, Recall: 0.686017, Micro-F1: 0.742492, Macro-F1: 0.552629
+2021/09/19 15:28:10 - INFO : TEST Improve Micro-F1 0.7245417661784593% --> 0.7424918655878372%
+2021/09/19 15:28:10 - INFO : DEV Improve Macro-F1 0.5257919115049333% --> 0.5526293776683244%
+2021/09/19 15:28:12 - INFO : Achieve best Macro-F1 on dev set, evaluate on test set
+2021/09/19 15:28:16 - INFO : Performance at epoch 14 --- Precision: 0.809087, Recall: 0.685964, Micro-F1: 0.742456, Macro-F1: 0.552658
+2021/09/19 15:28:16 - INFO : TEST Improve Macro-F1 0.5257919115049333% --> 0.5526575214984447%
+2021/09/19 15:28:16 - INFO : Epoch 14 Time Cost 63.57628083229065 secs.
+2021/09/19 15:29:03 - INFO : loss: 0.658656
+2021/09/19 15:29:07 - INFO : Performance at epoch 15 --- Precision: 0.816173, Recall: 0.714884, Micro-F1: 0.762178, Macro-F1: 0.599605
+2021/09/19 15:29:07 - INFO : DEV Improve Micro-F1 0.7449965865401891% --> 0.7621782599446927%
+2021/09/19 15:29:09 - INFO : Achieve best Micro-F1 on dev set, evaluate on test set
+2021/09/19 15:29:13 - INFO : Performance at epoch 15 --- Precision: 0.813244, Recall: 0.712940, Micro-F1: 0.759796, Macro-F1: 0.602530
+2021/09/19 15:29:13 - INFO : TEST Improve Micro-F1 0.7424918655878372% --> 0.7597958605046783%
+2021/09/19 15:29:13 - INFO : DEV Improve Macro-F1 0.5526293776683244% --> 0.6025297619289041%
+2021/09/19 15:29:16 - INFO : Achieve best Macro-F1 on dev set, evaluate on test set
+2021/09/19 15:29:20 - INFO : Performance at epoch 15 --- Precision: 0.813232, Recall: 0.712887, Micro-F1: 0.759761, Macro-F1: 0.602528
+2021/09/19 15:29:20 - INFO : TEST Improve Macro-F1 0.5526575214984447% --> 0.602528401852218%
+2021/09/19 15:29:20 - INFO : Epoch 15 Time Cost 63.89054894447327 secs.
+2021/09/19 15:30:07 - INFO : loss: 0.656193
+2021/09/19 15:30:10 - INFO : Performance at epoch 16 --- Precision: 0.840876, Recall: 0.725392, Micro-F1: 0.778877, Macro-F1: 0.633958
+2021/09/19 15:30:10 - INFO : DEV Improve Micro-F1 0.7621782599446927% --> 0.77887670939408%
+2021/09/19 15:30:12 - INFO : Achieve best Micro-F1 on dev set, evaluate on test set
+2021/09/19 15:30:17 - INFO : Performance at epoch 16 --- Precision: 0.833631, Recall: 0.720656, Micro-F1: 0.773037, Macro-F1: 0.626750
+2021/09/19 15:30:17 - INFO : TEST Improve Micro-F1 0.7597958605046783% --> 0.7730372991638367%
+2021/09/19 15:30:17 - INFO : DEV Improve Macro-F1 0.6025297619289041% --> 0.6267501596891764%
+2021/09/19 15:30:20 - INFO : Achieve best Macro-F1 on dev set, evaluate on test set
+2021/09/19 15:30:24 - INFO : Performance at epoch 16 --- Precision: 0.833621, Recall: 0.720602, Micro-F1: 0.773002, Macro-F1: 0.626745
+2021/09/19 15:30:24 - INFO : TEST Improve Macro-F1 0.602528401852218% --> 0.6267449598021191%
+2021/09/19 15:30:24 - INFO : Epoch 16 Time Cost 64.12976813316345 secs.
+2021/09/19 15:31:11 - INFO : loss: 0.657051
+2021/09/19 15:31:14 - INFO : Performance at epoch 17 --- Precision: 0.848422, Recall: 0.734836, Micro-F1: 0.787555, Macro-F1: 0.648378
+2021/09/19 15:31:14 - INFO : DEV Improve Micro-F1 0.77887670939408% --> 0.7875547952528601%
+2021/09/19 15:31:17 - INFO : Achieve best Micro-F1 on dev set, evaluate on test set
+2021/09/19 15:31:21 - INFO : Performance at epoch 17 --- Precision: 0.842018, Recall: 0.731670, Micro-F1: 0.782975, Macro-F1: 0.645689
+2021/09/19 15:31:21 - INFO : TEST Improve Micro-F1 0.7730372991638367% --> 0.7829750889679715%
+2021/09/19 15:31:21 - INFO : DEV Improve Macro-F1 0.6267501596891764% --> 0.6456890208598521%
+2021/09/19 15:31:23 - INFO : Achieve best Macro-F1 on dev set, evaluate on test set
+2021/09/19 15:31:28 - INFO : Performance at epoch 17 --- Precision: 0.842009, Recall: 0.731616, Micro-F1: 0.782940, Macro-F1: 0.645620
+2021/09/19 15:31:28 - INFO : TEST Improve Macro-F1 0.6267449598021191% --> 0.6456203021242203%
+2021/09/19 15:31:28 - INFO : Epoch 17 Time Cost 63.65981698036194 secs.
+2021/09/19 15:32:15 - INFO : loss: 0.658251
+2021/09/19 15:32:18 - INFO : Performance at epoch 18 --- Precision: 0.868147, Recall: 0.743549, Micro-F1: 0.801032, Macro-F1: 0.668837
+2021/09/19 15:32:18 - INFO : DEV Improve Micro-F1 0.7875547952528601% --> 0.8010317403453464%
+2021/09/19 15:32:20 - INFO : Achieve best Micro-F1 on dev set, evaluate on test set
+2021/09/19 15:32:25 - INFO : Performance at epoch 18 --- Precision: 0.858700, Recall: 0.737895, Micro-F1: 0.793727, Macro-F1: 0.660911
+2021/09/19 15:32:25 - INFO : TEST Improve Micro-F1 0.7829750889679715% --> 0.7937271062271063%
+2021/09/19 15:32:25 - INFO : DEV Improve Macro-F1 0.6456890208598521% --> 0.6609105734499231%
+2021/09/19 15:32:27 - INFO : Achieve best Macro-F1 on dev set, evaluate on test set
+2021/09/19 15:32:31 - INFO : Performance at epoch 18 --- Precision: 0.858647, Recall: 0.737895, Micro-F1: 0.793704, Macro-F1: 0.660908
+2021/09/19 15:32:31 - INFO : TEST Improve Macro-F1 0.6456203021242203% --> 0.6609084344943508%
+2021/09/19 15:32:31 - INFO : Epoch 18 Time Cost 63.65981411933899 secs.
+2021/09/19 15:33:18 - INFO : loss: 0.647268
+2021/09/19 15:33:22 - INFO : Performance at epoch 19 --- Precision: 0.871272, Recall: 0.755786, Micro-F1: 0.809431, Macro-F1: 0.683495
+2021/09/19 15:33:22 - INFO : DEV Improve Micro-F1 0.8010317403453464% --> 0.8094305352754728%
+2021/09/19 15:33:24 - INFO : Achieve best Micro-F1 on dev set, evaluate on test set
+2021/09/19 15:33:29 - INFO : Performance at epoch 19 --- Precision: 0.866777, Recall: 0.752953, Micro-F1: 0.805866, Macro-F1: 0.681035
+2021/09/19 15:33:29 - INFO : TEST Improve Micro-F1 0.7937271062271063% --> 0.8058656036446469%
+2021/09/19 15:33:29 - INFO : DEV Improve Macro-F1 0.6609105734499231% --> 0.6810351211597565%
+2021/09/19 15:33:31 - INFO : Achieve best Macro-F1 on dev set, evaluate on test set
+2021/09/19 15:33:35 - INFO : Performance at epoch 19 --- Precision: 0.866875, Recall: 0.752900, Micro-F1: 0.805877, Macro-F1: 0.680996
+2021/09/19 15:33:35 - INFO : TEST Improve Macro-F1 0.6609084344943508% --> 0.6809961931623515%
+2021/09/19 15:33:35 - INFO : Epoch 19 Time Cost 63.62624740600586 secs.
+2021/09/19 15:34:22 - INFO : loss: 0.657128
+2021/09/19 15:34:26 - INFO : Performance at epoch 20 --- Precision: 0.871936, Recall: 0.766627, Micro-F1: 0.815898, Macro-F1: 0.694366
+2021/09/19 15:34:26 - INFO : DEV Improve Micro-F1 0.8094305352754728% --> 0.8158975084937713%
+2021/09/19 15:34:28 - INFO : Achieve best Micro-F1 on dev set, evaluate on test set
+2021/09/19 15:34:33 - INFO : Performance at epoch 20 --- Precision: 0.865337, Recall: 0.764180, Micro-F1: 0.811619, Macro-F1: 0.688048
+2021/09/19 15:34:33 - INFO : TEST Improve Micro-F1 0.8058656036446469% --> 0.8116187731344127%
+2021/09/19 15:34:33 - INFO : DEV Improve Macro-F1 0.6810351211597565% --> 0.6880477265503095%
+2021/09/19 15:34:35 - INFO : Achieve best Macro-F1 on dev set, evaluate on test set
+2021/09/19 15:34:39 - INFO : Performance at epoch 20 --- Precision: 0.865233, Recall: 0.764180, Micro-F1: 0.811573, Macro-F1: 0.687929
+2021/09/19 15:34:39 - INFO : TEST Improve Macro-F1 0.6809961931623515% --> 0.6879294038300293%
+2021/09/19 15:34:39 - INFO : Epoch 20 Time Cost 64.01408362388611 secs.
+2021/09/19 15:35:26 - INFO : loss: 0.654376
+2021/09/19 15:35:30 - INFO : Performance at epoch 21 --- Precision: 0.877428, Recall: 0.763168, Micro-F1: 0.816319, Macro-F1: 0.703499
+2021/09/19 15:35:30 - INFO : DEV Improve Micro-F1 0.8158975084937713% --> 0.8163192715373123%
+2021/09/19 15:35:32 - INFO : Achieve best Micro-F1 on dev set, evaluate on test set
+2021/09/19 15:35:37 - INFO : Performance at epoch 21 --- Precision: 0.870188, Recall: 0.759019, Micro-F1: 0.810811, Macro-F1: 0.701081
+2021/09/19 15:35:37 - INFO : DEV Improve Macro-F1 0.6880477265503095% --> 0.7010807810008297%
+2021/09/19 15:35:39 - INFO : Achieve best Macro-F1 on dev set, evaluate on test set
+2021/09/19 15:35:43 - INFO : Performance at epoch 21 --- Precision: 0.870249, Recall: 0.759072, Micro-F1: 0.810868, Macro-F1: 0.701350
+2021/09/19 15:35:43 - INFO : TEST Improve Macro-F1 0.6879294038300293% --> 0.7013499587934975%
+2021/09/19 15:35:43 - INFO : Epoch 21 Time Cost 64.12366795539856 secs.
+2021/09/19 15:36:30 - INFO : loss: 0.656919
+2021/09/19 15:36:34 - INFO : Performance at epoch 22 --- Precision: 0.887845, Recall: 0.772878, Micro-F1: 0.826382, Macro-F1: 0.714459
+2021/09/19 15:36:34 - INFO : DEV Improve Micro-F1 0.8163192715373123% --> 0.8263822222222222%
+2021/09/19 15:36:36 - INFO : Achieve best Micro-F1 on dev set, evaluate on test set
+2021/09/19 15:36:40 - INFO : Performance at epoch 22 --- Precision: 0.880788, Recall: 0.768171, Micro-F1: 0.820634, Macro-F1: 0.713009
+2021/09/19 15:36:41 - INFO : TEST Improve Micro-F1 0.8116187731344127% --> 0.8206337928094357%
+2021/09/19 15:36:41 - INFO : DEV Improve Macro-F1 0.7010807810008297% --> 0.7130091468530305%
+2021/09/19 15:36:43 - INFO : Achieve best Macro-F1 on dev set, evaluate on test set
+2021/09/19 15:36:47 - INFO : Performance at epoch 22 --- Precision: 0.880781, Recall: 0.768117, Micro-F1: 0.820600, Macro-F1: 0.712955
+2021/09/19 15:36:47 - INFO : TEST Improve Macro-F1 0.7013499587934975% --> 0.7129547626185258%
+2021/09/19 15:36:47 - INFO : Epoch 22 Time Cost 64.37224292755127 secs.
+2021/09/19 15:37:35 - INFO : loss: 0.654184
+2021/09/19 15:37:38 - INFO : Performance at epoch 23 --- Precision: 0.892496, Recall: 0.775206, Micro-F1: 0.829727, Macro-F1: 0.724380
+2021/09/19 15:37:38 - INFO : DEV Improve Micro-F1 0.8263822222222222% --> 0.8297266514806378%
+2021/09/19 15:37:41 - INFO : Achieve best Micro-F1 on dev set, evaluate on test set
+2021/09/19 15:37:45 - INFO : Performance at epoch 23 --- Precision: 0.885946, Recall: 0.767107, Micro-F1: 0.822255, Macro-F1: 0.714228
+2021/09/19 15:37:45 - INFO : TEST Improve Micro-F1 0.8206337928094357% --> 0.8222545413066417%
+2021/09/19 15:37:45 - INFO : DEV Improve Macro-F1 0.7130091468530305% --> 0.7142283430431949%
+2021/09/19 15:37:47 - INFO : Achieve best Macro-F1 on dev set, evaluate on test set
+2021/09/19 15:37:52 - INFO : Performance at epoch 23 --- Precision: 0.885993, Recall: 0.767053, Micro-F1: 0.822244, Macro-F1: 0.713981
+2021/09/19 15:37:52 - INFO : TEST Improve Macro-F1 0.7129547626185258% --> 0.7139807679210605%
+2021/09/19 15:37:52 - INFO : Epoch 23 Time Cost 64.22480940818787 secs.
+2021/09/19 15:38:39 - INFO : loss: 0.662411
+2021/09/19 15:38:42 - INFO : Performance at epoch 24 --- Precision: 0.891046, Recall: 0.784318, Micro-F1: 0.834282, Macro-F1: 0.734924
+2021/09/19 15:38:42 - INFO : DEV Improve Micro-F1 0.8297266514806378% --> 0.8342824802801457%
+2021/09/19 15:38:44 - INFO : Achieve best Micro-F1 on dev set, evaluate on test set
+2021/09/19 15:38:49 - INFO : Performance at epoch 24 --- Precision: 0.883988, Recall: 0.781686, Micro-F1: 0.829695, Macro-F1: 0.730741
+2021/09/19 15:38:49 - INFO : TEST Improve Micro-F1 0.8222545413066417% --> 0.8296953096320561%
+2021/09/19 15:38:49 - INFO : DEV Improve Macro-F1 0.7142283430431949% --> 0.7307410593644481%
+2021/09/19 15:38:51 - INFO : Achieve best Macro-F1 on dev set, evaluate on test set
+2021/09/19 15:38:56 - INFO : Performance at epoch 24 --- Precision: 0.883988, Recall: 0.781686, Micro-F1: 0.829695, Macro-F1: 0.730741
+2021/09/19 15:38:56 - INFO : TEST Improve Macro-F1 0.7139807679210605% --> 0.7307410593644481%
+2021/09/19 15:38:56 - INFO : Epoch 24 Time Cost 64.14082622528076 secs.
+2021/09/19 15:39:43 - INFO : loss: 0.650053
+2021/09/19 15:39:46 - INFO : Performance at epoch 25 --- Precision: 0.891821, Recall: 0.788973, Micro-F1: 0.837250, Macro-F1: 0.741863
+2021/09/19 15:39:46 - INFO : DEV Improve Micro-F1 0.8342824802801457% --> 0.8372503352389019%
+2021/09/19 15:39:49 - INFO : Achieve best Micro-F1 on dev set, evaluate on test set
+2021/09/19 15:39:53 - INFO : Performance at epoch 25 --- Precision: 0.885971, Recall: 0.786315, Micro-F1: 0.833174, Macro-F1: 0.737838
+2021/09/19 15:39:53 - INFO : TEST Improve Micro-F1 0.8296953096320561% --> 0.8331735919264813%
+2021/09/19 15:39:53 - INFO : DEV Improve Macro-F1 0.7307410593644481% --> 0.7378380582182643%
+2021/09/19 15:39:55 - INFO : Achieve best Macro-F1 on dev set, evaluate on test set
+2021/09/19 15:40:00 - INFO : Performance at epoch 25 --- Precision: 0.886018, Recall: 0.786262, Micro-F1: 0.833164, Macro-F1: 0.737875
+2021/09/19 15:40:00 - INFO : TEST Improve Macro-F1 0.7307410593644481% --> 0.7378746832969988%
+2021/09/19 15:40:00 - INFO : Epoch 25 Time Cost 64.05394530296326 secs.
+2021/09/19 15:40:47 - INFO : loss: 0.653161
+2021/09/19 15:40:50 - INFO : Performance at epoch 26 --- Precision: 0.895152, Recall: 0.793230, Micro-F1: 0.841114, Macro-F1: 0.746406
+2021/09/19 15:40:50 - INFO : DEV Improve Micro-F1 0.8372503352389019% --> 0.8411142454160789%
+2021/09/19 15:40:53 - INFO : Achieve best Micro-F1 on dev set, evaluate on test set
+2021/09/19 15:40:57 - INFO : Performance at epoch 26 --- Precision: 0.890177, Recall: 0.788390, Micro-F1: 0.836197, Macro-F1: 0.743625
+2021/09/19 15:40:57 - INFO : TEST Improve Micro-F1 0.8331735919264813% --> 0.8361974096334547%
+2021/09/19 15:40:57 - INFO : DEV Improve Macro-F1 0.7378380582182643% --> 0.7436247655346179%
+2021/09/19 15:41:00 - INFO : Achieve best Macro-F1 on dev set, evaluate on test set
+2021/09/19 15:41:04 - INFO : Performance at epoch 26 --- Precision: 0.890177, Recall: 0.788390, Micro-F1: 0.836197, Macro-F1: 0.743625
+2021/09/19 15:41:04 - INFO : TEST Improve Macro-F1 0.7378746832969988% --> 0.7436247655346179%
+2021/09/19 15:41:04 - INFO : Epoch 26 Time Cost 64.13930106163025 secs.
+2021/09/19 15:41:51 - INFO : loss: 0.652983
+2021/09/19 15:41:55 - INFO : Performance at epoch 27 --- Precision: 0.893216, Recall: 0.793296, Micro-F1: 0.840296, Macro-F1: 0.749858
+2021/09/19 15:41:55 - INFO : DEV Improve Macro-F1 0.7436247655346179% --> 0.7498583042172144%
+2021/09/19 15:41:57 - INFO : Achieve best Macro-F1 on dev set, evaluate on test set
+2021/09/19 15:42:02 - INFO : Performance at epoch 27 --- Precision: 0.888170, Recall: 0.789401, Micro-F1: 0.835878, Macro-F1: 0.747076
+2021/09/19 15:42:02 - INFO : TEST Improve Macro-F1 0.7436247655346179% --> 0.7470762408689287%
+2021/09/19 15:42:02 - INFO : Epoch 27 Time Cost 57.82160449028015 secs.
+2021/09/19 15:42:49 - INFO : loss: 0.646828
+2021/09/19 15:42:52 - INFO : Performance at epoch 28 --- Precision: 0.893034, Recall: 0.805666, Micro-F1: 0.847103, Macro-F1: 0.761870
+2021/09/19 15:42:52 - INFO : DEV Improve Micro-F1 0.8411142454160789% --> 0.8471032481381771%
+2021/09/19 15:42:54 - INFO : Achieve best Micro-F1 on dev set, evaluate on test set
+2021/09/19 15:43:00 - INFO : Performance at epoch 28 --- Precision: 0.888162, Recall: 0.802011, Micro-F1: 0.842891, Macro-F1: 0.760025
+2021/09/19 15:43:00 - INFO : TEST Improve Micro-F1 0.8361974096334547% --> 0.8428910946456032%
+2021/09/19 15:43:00 - INFO : DEV Improve Macro-F1 0.7498583042172144% --> 0.7600248305625107%
+2021/09/19 15:43:01 - INFO : Achieve best Macro-F1 on dev set, evaluate on test set
+2021/09/19 15:43:06 - INFO : Performance at epoch 28 --- Precision: 0.888162, Recall: 0.802011, Micro-F1: 0.842891, Macro-F1: 0.760025
+2021/09/19 15:43:06 - INFO : TEST Improve Macro-F1 0.7470762408689287% --> 0.7600248305625107%
+2021/09/19 15:43:06 - INFO : Epoch 28 Time Cost 64.0434193611145 secs.
+2021/09/19 15:43:53 - INFO : loss: 0.652743
+2021/09/19 15:43:56 - INFO : Performance at epoch 29 --- Precision: 0.893672, Recall: 0.802142, Micro-F1: 0.845437, Macro-F1: 0.753623
+2021/09/19 15:43:56 - INFO : Epoch 29 Time Cost 50.641578674316406 secs.
+2021/09/19 15:44:44 - INFO : loss: 0.651441
+2021/09/19 15:44:47 - INFO : Performance at epoch 30 --- Precision: 0.899139, Recall: 0.798617, Micro-F1: 0.845902, Macro-F1: 0.754007
+2021/09/19 15:44:47 - INFO : Epoch 30 Time Cost 50.624772787094116 secs.
+2021/09/19 15:45:35 - INFO : loss: 0.653152
+2021/09/19 15:45:38 - INFO : Performance at epoch 31 --- Precision: 0.892680, Recall: 0.812650, Micro-F1: 0.850787, Macro-F1: 0.766328
+2021/09/19 15:45:38 - INFO : DEV Improve Micro-F1 0.8471032481381771% --> 0.8507867984960312%
+2021/09/19 15:45:40 - INFO : Achieve best Micro-F1 on dev set, evaluate on test set
+2021/09/19 15:45:45 - INFO : Performance at epoch 31 --- Precision: 0.885944, Recall: 0.809248, Micro-F1: 0.845861, Macro-F1: 0.763283
+2021/09/19 15:45:45 - INFO : TEST Improve Micro-F1 0.8428910946456032% --> 0.8458607936375518%
+2021/09/19 15:45:45 - INFO : DEV Improve Macro-F1 0.7600248305625107% --> 0.763283340571895%
+2021/09/19 15:45:47 - INFO : Achieve best Macro-F1 on dev set, evaluate on test set
+2021/09/19 15:45:51 - INFO : Performance at epoch 31 --- Precision: 0.885937, Recall: 0.809194, Micro-F1: 0.845829, Macro-F1: 0.763282
+2021/09/19 15:45:51 - INFO : TEST Improve Macro-F1 0.7600248305625107% --> 0.763281957681388%
+2021/09/19 15:45:51 - INFO : Epoch 31 Time Cost 64.32518935203552 secs.
+2021/09/19 15:46:39 - INFO : loss: 0.650187
+2021/09/19 15:46:42 - INFO : Performance at epoch 32 --- Precision: 0.894002, Recall: 0.808859, Micro-F1: 0.849302, Macro-F1: 0.763917
+2021/09/19 15:46:42 - INFO : DEV Improve Macro-F1 0.763283340571895% --> 0.7639172025713705%
+2021/09/19 15:46:44 - INFO : Achieve best Macro-F1 on dev set, evaluate on test set
+2021/09/19 15:46:49 - INFO : Performance at epoch 32 --- Precision: 0.890244, Recall: 0.807917, Micro-F1: 0.847085, Macro-F1: 0.765979
+2021/09/19 15:46:49 - INFO : TEST Improve Macro-F1 0.763281957681388% --> 0.7659793876464465%
+2021/09/19 15:46:49 - INFO : Epoch 32 Time Cost 57.6412672996521 secs.
+2021/09/19 15:47:36 - INFO : loss: 0.655805
+2021/09/19 15:47:40 - INFO : Performance at epoch 33 --- Precision: 0.896703, Recall: 0.814046, Micro-F1: 0.853378, Macro-F1: 0.772281
+2021/09/19 15:47:40 - INFO : DEV Improve Micro-F1 0.8507867984960312% --> 0.8533779544028446%
+2021/09/19 15:47:42 - INFO : Achieve best Micro-F1 on dev set, evaluate on test set
+2021/09/19 15:47:47 - INFO : Performance at epoch 33 --- Precision: 0.891592, Recall: 0.811323, Micro-F1: 0.849565, Macro-F1: 0.770936
+2021/09/19 15:47:47 - INFO : TEST Improve Micro-F1 0.8458607936375518% --> 0.8495654111878761%
+2021/09/19 15:47:47 - INFO : DEV Improve Macro-F1 0.7639172025713705% --> 0.7709359140052545%
+2021/09/19 15:47:49 - INFO : Achieve best Macro-F1 on dev set, evaluate on test set
+2021/09/19 15:47:53 - INFO : Performance at epoch 33 --- Precision: 0.891539, Recall: 0.811323, Micro-F1: 0.849542, Macro-F1: 0.770913
+2021/09/19 15:47:53 - INFO : TEST Improve Macro-F1 0.7659793876464465% --> 0.7709131303434393%
+2021/09/19 15:47:53 - INFO : Epoch 33 Time Cost 64.12793493270874 secs.
+2021/09/19 15:48:41 - INFO : loss: 0.650631
+2021/09/19 15:48:44 - INFO : Performance at epoch 34 --- Precision: 0.892707, Recall: 0.817305, Micro-F1: 0.853344, Macro-F1: 0.773282
+2021/09/19 15:48:44 - INFO : DEV Improve Macro-F1 0.7709359140052545% --> 0.7732819806311831%
+2021/09/19 15:48:46 - INFO : Achieve best Macro-F1 on dev set, evaluate on test set
+2021/09/19 15:48:51 - INFO : Performance at epoch 34 --- Precision: 0.888882, Recall: 0.815526, Micro-F1: 0.850626, Macro-F1: 0.771971
+2021/09/19 15:48:51 - INFO : TEST Improve Macro-F1 0.7709131303434393% --> 0.7719707423916743%
+2021/09/19 15:48:51 - INFO : Epoch 34 Time Cost 57.80687212944031 secs.
+2021/09/19 15:49:38 - INFO : loss: 0.653227
+2021/09/19 15:49:42 - INFO : Performance at epoch 35 --- Precision: 0.894534, Recall: 0.817372, Micro-F1: 0.854214, Macro-F1: 0.772616
+2021/09/19 15:49:42 - INFO : DEV Improve Micro-F1 0.8533779544028446% --> 0.8542137271937446%
+2021/09/19 15:49:44 - INFO : Achieve best Micro-F1 on dev set, evaluate on test set
+2021/09/19 15:49:49 - INFO : Performance at epoch 35 --- Precision: 0.889686, Recall: 0.817921, Micro-F1: 0.852295, Macro-F1: 0.776087
+2021/09/19 15:49:49 - INFO : TEST Improve Micro-F1 0.8495654111878761% --> 0.8522954091816367%
+2021/09/19 15:49:49 - INFO : DEV Improve Macro-F1 0.7732819806311831% --> 0.7760869239562987%
+2021/09/19 15:49:51 - INFO : Achieve best Macro-F1 on dev set, evaluate on test set
+2021/09/19 15:49:55 - INFO : Performance at epoch 35 --- Precision: 0.889686, Recall: 0.817921, Micro-F1: 0.852295, Macro-F1: 0.776087
+2021/09/19 15:49:55 - INFO : TEST Improve Macro-F1 0.7719707423916743% --> 0.7760869239562987%
+2021/09/19 15:49:55 - INFO : Epoch 35 Time Cost 64.34709548950195 secs.
+2021/09/19 15:50:43 - INFO : loss: 0.651929
+2021/09/19 15:50:46 - INFO : Performance at epoch 36 --- Precision: 0.892803, Recall: 0.822559, Micro-F1: 0.856243, Macro-F1: 0.781531
+2021/09/19 15:50:46 - INFO : DEV Improve Micro-F1 0.8542137271937446% --> 0.8562428606043823%
+2021/09/19 15:50:48 - INFO : Achieve best Micro-F1 on dev set, evaluate on test set
+2021/09/19 15:50:53 - INFO : Performance at epoch 36 --- Precision: 0.886555, Recall: 0.817495, Micro-F1: 0.850626, Macro-F1: 0.777091
+2021/09/19 15:50:53 - INFO : DEV Improve Macro-F1 0.7760869239562987% --> 0.7770905810268889%
+2021/09/19 15:50:55 - INFO : Achieve best Macro-F1 on dev set, evaluate on test set
+2021/09/19 15:51:00 - INFO : Performance at epoch 36 --- Precision: 0.886555, Recall: 0.817495, Micro-F1: 0.850626, Macro-F1: 0.777091
+2021/09/19 15:51:00 - INFO : TEST Improve Macro-F1 0.7760869239562987% --> 0.7770905810268889%
+2021/09/19 15:51:00 - INFO : Epoch 36 Time Cost 64.48007988929749 secs.
+2021/09/19 15:51:47 - INFO : loss: 0.649238
+2021/09/19 15:51:50 - INFO : Performance at epoch 37 --- Precision: 0.890013, Recall: 0.825020, Micro-F1: 0.856285, Macro-F1: 0.778871
+2021/09/19 15:51:50 - INFO : DEV Improve Micro-F1 0.8562428606043823% --> 0.856284945123214%
+2021/09/19 15:51:53 - INFO : Achieve best Micro-F1 on dev set, evaluate on test set
+2021/09/19 15:51:57 - INFO : Performance at epoch 37 --- Precision: 0.887595, Recall: 0.823508, Micro-F1: 0.854351, Macro-F1: 0.780987
+2021/09/19 15:51:57 - INFO : TEST Improve Micro-F1 0.8522954091816367% --> 0.8543512461704066%
+2021/09/19 15:51:57 - INFO : DEV Improve Macro-F1 0.7770905810268889% --> 0.7809868572454983%
+2021/09/19 15:51:59 - INFO : Achieve best Macro-F1 on dev set, evaluate on test set
+2021/09/19 15:52:04 - INFO : Performance at epoch 37 --- Precision: 0.887595, Recall: 0.823508, Micro-F1: 0.854351, Macro-F1: 0.780987
+2021/09/19 15:52:04 - INFO : TEST Improve Macro-F1 0.7770905810268889% --> 0.7809868572454983%
+2021/09/19 15:52:04 - INFO : Epoch 37 Time Cost 64.4592354297638 secs.
+2021/09/19 15:52:52 - INFO : loss: 0.650545
+2021/09/19 15:52:55 - INFO : Performance at epoch 38 --- Precision: 0.890452, Recall: 0.824953, Micro-F1: 0.856452, Macro-F1: 0.782204
+2021/09/19 15:52:55 - INFO : DEV Improve Micro-F1 0.856284945123214% --> 0.8564523924601256%
+2021/09/19 15:52:57 - INFO : Achieve best Micro-F1 on dev set, evaluate on test set
+2021/09/19 15:53:02 - INFO : Performance at epoch 38 --- Precision: 0.886029, Recall: 0.822337, Micro-F1: 0.852996, Macro-F1: 0.780582
+2021/09/19 15:53:02 - INFO : Epoch 38 Time Cost 57.833799839019775 secs.
+2021/09/19 15:53:49 - INFO : loss: 0.649741
+2021/09/19 15:53:53 - INFO : Performance at epoch 39 --- Precision: 0.888027, Recall: 0.830208, Micro-F1: 0.858145, Macro-F1: 0.784378
+2021/09/19 15:53:53 - INFO : DEV Improve Micro-F1 0.8564523924601256% --> 0.8581445708589697%
+2021/09/19 15:53:55 - INFO : Achieve best Micro-F1 on dev set, evaluate on test set
+2021/09/19 15:54:00 - INFO : Performance at epoch 39 --- Precision: 0.883751, Recall: 0.826806, Micro-F1: 0.854331, Macro-F1: 0.785234
+2021/09/19 15:54:00 - INFO : DEV Improve Macro-F1 0.7809868572454983% --> 0.7852337537805298%
+2021/09/19 15:54:02 - INFO : Achieve best Macro-F1 on dev set, evaluate on test set
+2021/09/19 15:54:06 - INFO : Performance at epoch 39 --- Precision: 0.883758, Recall: 0.826860, Micro-F1: 0.854363, Macro-F1: 0.785284
+2021/09/19 15:54:06 - INFO : TEST Improve Macro-F1 0.7809868572454983% --> 0.7852842028357833%
+2021/09/19 15:54:06 - INFO : Epoch 39 Time Cost 64.0049958229065 secs.
+2021/09/19 15:54:54 - INFO : loss: 0.651701
+2021/09/19 15:54:57 - INFO : Performance at epoch 40 --- Precision: 0.893240, Recall: 0.825219, Micro-F1: 0.857884, Macro-F1: 0.785538
+2021/09/19 15:54:57 - INFO : DEV Improve Macro-F1 0.7852337537805298% --> 0.7855383735884913%
+2021/09/19 15:54:59 - INFO : Achieve best Macro-F1 on dev set, evaluate on test set
+2021/09/19 15:55:04 - INFO : Performance at epoch 40 --- Precision: 0.889829, Recall: 0.822975, Micro-F1: 0.855097, Macro-F1: 0.785492
+2021/09/19 15:55:04 - INFO : TEST Improve Macro-F1 0.7852842028357833% --> 0.7854924867054435%
+2021/09/19 15:55:04 - INFO : Epoch 40 Time Cost 58.01843285560608 secs.
+2021/09/19 15:55:51 - INFO : loss: 0.647192
+2021/09/19 15:55:55 - INFO : Performance at epoch 41 --- Precision: 0.885549, Recall: 0.834663, Micro-F1: 0.859354, Macro-F1: 0.790680
+2021/09/19 15:55:55 - INFO : DEV Improve Micro-F1 0.8581445708589697% --> 0.8593536017529445%
+2021/09/19 15:55:57 - INFO : Achieve best Micro-F1 on dev set, evaluate on test set
+2021/09/19 15:56:02 - INFO : Performance at epoch 41 --- Precision: 0.881315, Recall: 0.831702, Micro-F1: 0.855790, Macro-F1: 0.786577
+2021/09/19 15:56:02 - INFO : TEST Improve Micro-F1 0.8543512461704066% --> 0.8557897618395839%
+2021/09/19 15:56:02 - INFO : DEV Improve Macro-F1 0.7855383735884913% --> 0.7865773370432165%
+2021/09/19 15:56:04 - INFO : Achieve best Macro-F1 on dev set, evaluate on test set
+2021/09/19 15:56:08 - INFO : Performance at epoch 41 --- Precision: 0.881371, Recall: 0.831755, Micro-F1: 0.855845, Macro-F1: 0.786640
+2021/09/19 15:56:08 - INFO : TEST Improve Macro-F1 0.7854924867054435% --> 0.7866397121437768%
+2021/09/19 15:56:08 - INFO : Epoch 41 Time Cost 64.28886365890503 secs.
+2021/09/19 15:56:56 - INFO : loss: 0.654013
+2021/09/19 15:56:59 - INFO : Performance at epoch 42 --- Precision: 0.892193, Recall: 0.830008, Micro-F1: 0.859978, Macro-F1: 0.792542
+2021/09/19 15:56:59 - INFO : DEV Improve Micro-F1 0.8593536017529445% --> 0.8599779492833517%
+2021/09/19 15:57:01 - INFO : Achieve best Micro-F1 on dev set, evaluate on test set
+2021/09/19 15:57:06 - INFO : Performance at epoch 42 --- Precision: 0.888832, Recall: 0.827019, Micro-F1: 0.856812, Macro-F1: 0.791194
+2021/09/19 15:57:06 - INFO : TEST Improve Micro-F1 0.8557897618395839% --> 0.856812105509771%
+2021/09/19 15:57:06 - INFO : DEV Improve Macro-F1 0.7865773370432165% --> 0.7911936382225813%
+2021/09/19 15:57:08 - INFO : Achieve best Macro-F1 on dev set, evaluate on test set
+2021/09/19 15:57:13 - INFO : Performance at epoch 42 --- Precision: 0.888832, Recall: 0.827019, Micro-F1: 0.856812, Macro-F1: 0.791194
+2021/09/19 15:57:13 - INFO : TEST Improve Macro-F1 0.7866397121437768% --> 0.7911936382225813%
+2021/09/19 15:57:13 - INFO : Epoch 42 Time Cost 64.3947012424469 secs.
+2021/09/19 15:58:00 - INFO : loss: 0.644324
+2021/09/19 15:58:03 - INFO : Performance at epoch 43 --- Precision: 0.889623, Recall: 0.832469, Micro-F1: 0.860098, Macro-F1: 0.792681
+2021/09/19 15:58:03 - INFO : DEV Improve Micro-F1 0.8599779492833517% --> 0.8600975743832886%
+2021/09/19 15:58:06 - INFO : Achieve best Micro-F1 on dev set, evaluate on test set
+2021/09/19 15:58:11 - INFO : Performance at epoch 43 --- Precision: 0.885059, Recall: 0.828030, Micro-F1: 0.855596, Macro-F1: 0.789822
+2021/09/19 15:58:11 - INFO : Epoch 43 Time Cost 57.81149458885193 secs.
+2021/09/19 15:58:58 - INFO : loss: 0.645993
+2021/09/19 15:59:01 - INFO : Performance at epoch 44 --- Precision: 0.890421, Recall: 0.829010, Micro-F1: 0.858619, Macro-F1: 0.790515
+2021/09/19 15:59:01 - INFO : Epoch 44 Time Cost 50.869256019592285 secs.
+2021/09/19 15:59:49 - INFO : loss: 0.650091
+2021/09/19 15:59:53 - INFO : Performance at epoch 45 --- Precision: 0.891701, Recall: 0.829609, Micro-F1: 0.859535, Macro-F1: 0.790955
+2021/09/19 15:59:53 - INFO : Epoch 45 Time Cost 51.056999921798706 secs.
+2021/09/19 16:00:40 - INFO : loss: 0.650805
+2021/09/19 16:00:43 - INFO : Performance at epoch 46 --- Precision: 0.891896, Recall: 0.826350, Micro-F1: 0.857873, Macro-F1: 0.789321
+2021/09/19 16:00:44 - INFO : Epoch 46 Time Cost 50.9490487575531 secs.
+2021/09/19 16:01:31 - INFO : loss: 0.643998
+2021/09/19 16:01:34 - INFO : Performance at epoch 47 --- Precision: 0.889093, Recall: 0.835994, Micro-F1: 0.861726, Macro-F1: 0.792029
+2021/09/19 16:01:34 - INFO : DEV Improve Micro-F1 0.8600975743832886% --> 0.8617261945567971%
+2021/09/19 16:01:36 - INFO : Achieve best Micro-F1 on dev set, evaluate on test set
+2021/09/19 16:01:41 - INFO : Performance at epoch 47 --- Precision: 0.883503, Recall: 0.832074, Micro-F1: 0.857018, Macro-F1: 0.790086
+2021/09/19 16:01:41 - INFO : TEST Improve Micro-F1 0.856812105509771% --> 0.8570175919329205%
+2021/09/19 16:01:41 - INFO : Epoch 47 Time Cost 57.44451928138733 secs.
+2021/09/19 16:02:29 - INFO : loss: 0.647215
+2021/09/19 16:02:32 - INFO : Performance at epoch 48 --- Precision: 0.889227, Recall: 0.834464, Micro-F1: 0.860976, Macro-F1: 0.792477
+2021/09/19 16:02:32 - INFO : DEV Improve Macro-F1 0.7911936382225813% --> 0.7924765860146938%
+2021/09/19 16:02:34 - INFO : Achieve best Macro-F1 on dev set, evaluate on test set
+2021/09/19 16:02:39 - INFO : Performance at epoch 48 --- Precision: 0.882940, Recall: 0.829148, Micro-F1: 0.855199, Macro-F1: 0.789370
+2021/09/19 16:02:39 - INFO : Epoch 48 Time Cost 58.143373012542725 secs.
+2021/09/19 16:03:27 - INFO : loss: 0.659535
+2021/09/19 16:03:30 - INFO : Performance at epoch 49 --- Precision: 0.886408, Recall: 0.837124, Micro-F1: 0.861062, Macro-F1: 0.795529
+2021/09/19 16:03:30 - INFO : DEV Improve Macro-F1 0.7924765860146938% --> 0.7955289332091635%
+2021/09/19 16:03:32 - INFO : Achieve best Macro-F1 on dev set, evaluate on test set
+2021/09/19 16:03:37 - INFO : Performance at epoch 49 --- Precision: 0.881130, Recall: 0.834575, Micro-F1: 0.857221, Macro-F1: 0.794622
+2021/09/19 16:03:37 - INFO : TEST Improve Macro-F1 0.7911936382225813% --> 0.7946220187513289%
+2021/09/19 16:03:37 - INFO : Epoch 49 Time Cost 57.81899046897888 secs.
+2021/09/19 16:04:24 - INFO : loss: 0.647238
+2021/09/19 16:04:28 - INFO : Performance at epoch 50 --- Precision: 0.887541, Recall: 0.837191, Micro-F1: 0.861631, Macro-F1: 0.796636
+2021/09/19 16:04:28 - INFO : DEV Improve Macro-F1 0.7955289332091635% --> 0.796636037065891%
+2021/09/19 16:04:30 - INFO : Achieve best Macro-F1 on dev set, evaluate on test set
+2021/09/19 16:04:35 - INFO : Performance at epoch 50 --- Precision: 0.885185, Recall: 0.836437, Micro-F1: 0.860121, Macro-F1: 0.798560
+2021/09/19 16:04:35 - INFO : TEST Improve Macro-F1 0.7946220187513289% --> 0.7985603147096987%
+2021/09/19 16:04:35 - INFO : Epoch 50 Time Cost 57.652387619018555 secs.
+2021/09/19 16:05:22 - INFO : loss: 0.650973
+2021/09/19 16:05:26 - INFO : Performance at epoch 51 --- Precision: 0.887555, Recall: 0.840982, Micro-F1: 0.863641, Macro-F1: 0.798594
+2021/09/19 16:05:26 - INFO : DEV Improve Micro-F1 0.8617261945567971% --> 0.8636410203872554%
+2021/09/19 16:05:27 - INFO : Achieve best Micro-F1 on dev set, evaluate on test set
+2021/09/19 16:05:33 - INFO : Performance at epoch 51 --- Precision: 0.884135, Recall: 0.835586, Micro-F1: 0.859175, Macro-F1: 0.799021
+2021/09/19 16:05:33 - INFO : TEST Improve Micro-F1 0.8570175919329205% --> 0.8591749644381224%
+2021/09/19 16:05:33 - INFO : DEV Improve Macro-F1 0.796636037065891% --> 0.7990213177654709%
+2021/09/19 16:05:35 - INFO : Achieve best Macro-F1 on dev set, evaluate on test set
+2021/09/19 16:05:40 - INFO : Performance at epoch 51 --- Precision: 0.884135, Recall: 0.835586, Micro-F1: 0.859175, Macro-F1: 0.799021
+2021/09/19 16:05:40 - INFO : TEST Improve Macro-F1 0.7985603147096987% --> 0.7990213177654709%
+2021/09/19 16:05:40 - INFO : Epoch 51 Time Cost 65.53743505477905 secs.
+2021/09/19 16:06:27 - INFO : loss: 0.644268
+2021/09/19 16:06:31 - INFO : Performance at epoch 52 --- Precision: 0.885048, Recall: 0.837723, Micro-F1: 0.860735, Macro-F1: 0.794890
+2021/09/19 16:06:31 - INFO : Epoch 52 Time Cost 50.738043785095215 secs.
+2021/09/19 16:07:18 - INFO : loss: 0.651449
+2021/09/19 16:07:22 - INFO : Performance at epoch 53 --- Precision: 0.881935, Recall: 0.842578, Micro-F1: 0.861807, Macro-F1: 0.794809
+2021/09/19 16:07:22 - INFO : Epoch 53 Time Cost 50.927809953689575 secs.
+2021/09/19 16:08:09 - INFO : loss: 0.655985
+2021/09/19 16:08:13 - INFO : Performance at epoch 54 --- Precision: 0.883138, Recall: 0.840849, Micro-F1: 0.861475, Macro-F1: 0.798048
+2021/09/19 16:08:13 - INFO : Epoch 54 Time Cost 50.955180406570435 secs.
+2021/09/19 16:09:00 - INFO : loss: 0.641999
+2021/09/19 16:09:04 - INFO : Performance at epoch 55 --- Precision: 0.882819, Recall: 0.844773, Micro-F1: 0.863377, Macro-F1: 0.798353
+2021/09/19 16:09:04 - INFO : Epoch 55 Time Cost 50.96436095237732 secs.
+2021/09/19 16:09:51 - INFO : loss: 0.642389
+2021/09/19 16:09:55 - INFO : Performance at epoch 56 --- Precision: 0.885891, Recall: 0.838521, Micro-F1: 0.861555, Macro-F1: 0.796740
+2021/09/19 16:09:55 - WARNING : Performance has not been improved for 5 epochs, updating learning rate
+2021/09/19 16:09:55 - WARNING : Learning rate update 0.0001--->0.0001
+2021/09/19 16:09:55 - INFO : Epoch 56 Time Cost 51.08233690261841 secs.
+2021/09/19 16:10:42 - INFO : loss: 0.650102
+2021/09/19 16:10:46 - INFO : Performance at epoch 57 --- Precision: 0.884982, Recall: 0.840250, Micro-F1: 0.862036, Macro-F1: 0.799447
+2021/09/19 16:10:46 - INFO : DEV Improve Macro-F1 0.7990213177654709% --> 0.7994471391531713%
+2021/09/19 16:10:48 - INFO : Achieve best Macro-F1 on dev set, evaluate on test set
+2021/09/19 16:10:53 - INFO : Performance at epoch 57 --- Precision: 0.880332, Recall: 0.834522, Micro-F1: 0.856815, Macro-F1: 0.794193
+2021/09/19 16:10:53 - INFO : Epoch 57 Time Cost 58.305697202682495 secs.
+2021/09/19 16:11:41 - INFO : loss: 0.650713
+2021/09/19 16:11:44 - INFO : Performance at epoch 58 --- Precision: 0.884060, Recall: 0.838787, Micro-F1: 0.860829, Macro-F1: 0.798311
+2021/09/19 16:11:44 - INFO : Epoch 58 Time Cost 50.98908877372742 secs.
+2021/09/19 16:12:32 - INFO : loss: 0.648408
+2021/09/19 16:12:35 - INFO : Performance at epoch 59 --- Precision: 0.883677, Recall: 0.840716, Micro-F1: 0.861661, Macro-F1: 0.797936
+2021/09/19 16:12:35 - INFO : Epoch 59 Time Cost 50.86095190048218 secs.
+2021/09/19 16:13:22 - INFO : loss: 0.653530
+2021/09/19 16:13:26 - INFO : Performance at epoch 60 --- Precision: 0.885650, Recall: 0.842711, Micro-F1: 0.863647, Macro-F1: 0.800576
+2021/09/19 16:13:26 - INFO : DEV Improve Micro-F1 0.8636410203872554% --> 0.8636472071703643%
+2021/09/19 16:13:28 - INFO : Achieve best Micro-F1 on dev set, evaluate on test set
+2021/09/19 16:13:32 - INFO : Performance at epoch 60 --- Precision: 0.879681, Recall: 0.838725, Micro-F1: 0.858715, Macro-F1: 0.799419
+2021/09/19 16:13:32 - INFO : Epoch 60 Time Cost 57.26103162765503 secs.
+2021/09/19 16:14:20 - INFO : loss: 0.653634
+2021/09/19 16:14:23 - INFO : Performance at epoch 61 --- Precision: 0.880622, Recall: 0.843841, Micro-F1: 0.861839, Macro-F1: 0.797594
+2021/09/19 16:14:23 - INFO : Epoch 61 Time Cost 51.050228118896484 secs.
+2021/09/19 16:15:11 - INFO : loss: 0.649121
+2021/09/19 16:15:15 - INFO : Performance at epoch 62 --- Precision: 0.879573, Recall: 0.849096, Micro-F1: 0.864066, Macro-F1: 0.801015
+2021/09/19 16:15:15 - INFO : DEV Improve Micro-F1 0.8636472071703643% --> 0.864065513857399%
+2021/09/19 16:15:17 - INFO : Achieve best Micro-F1 on dev set, evaluate on test set
+2021/09/19 16:15:21 - INFO : Performance at epoch 62 --- Precision: 0.873569, Recall: 0.844472, Micro-F1: 0.858774, Macro-F1: 0.800249
+2021/09/19 16:15:21 - INFO : DEV Improve Macro-F1 0.7994471391531713% --> 0.8002492064669572%
+2021/09/19 16:15:24 - INFO : Achieve best Macro-F1 on dev set, evaluate on test set
+2021/09/19 16:15:28 - INFO : Performance at epoch 62 --- Precision: 0.873521, Recall: 0.844472, Micro-F1: 0.858751, Macro-F1: 0.800247
+2021/09/19 16:15:28 - INFO : TEST Improve Macro-F1 0.7990213177654709% --> 0.8002465547751471%
+2021/09/19 16:15:28 - INFO : Epoch 62 Time Cost 65.23433685302734 secs.
+2021/09/19 16:16:16 - INFO : loss: 0.651210
+2021/09/19 16:16:19 - INFO : Performance at epoch 63 --- Precision: 0.889178, Recall: 0.840450, Micro-F1: 0.864127, Macro-F1: 0.798585
+2021/09/19 16:16:19 - INFO : DEV Improve Micro-F1 0.864065513857399% --> 0.8641274617067835%
+2021/09/19 16:16:22 - INFO : Achieve best Micro-F1 on dev set, evaluate on test set
+2021/09/19 16:16:27 - INFO : Performance at epoch 63 --- Precision: 0.885724, Recall: 0.835533, Micro-F1: 0.859897, Macro-F1: 0.800993
+2021/09/19 16:16:27 - INFO : TEST Improve Micro-F1 0.8591749644381224% --> 0.8598965035730909%
+2021/09/19 16:16:27 - INFO : DEV Improve Macro-F1 0.8002492064669572% --> 0.8009926511703171%
+2021/09/19 16:16:29 - INFO : Achieve best Macro-F1 on dev set, evaluate on test set
+2021/09/19 16:16:33 - INFO : Performance at epoch 63 --- Precision: 0.885724, Recall: 0.835533, Micro-F1: 0.859897, Macro-F1: 0.800988
+2021/09/19 16:16:33 - INFO : TEST Improve Macro-F1 0.8002465547751471% --> 0.8009877240378098%
+2021/09/19 16:16:33 - INFO : Epoch 63 Time Cost 64.47137928009033 secs.
+2021/09/19 16:17:20 - INFO : loss: 0.645467
+2021/09/19 16:17:24 - INFO : Performance at epoch 64 --- Precision: 0.884377, Recall: 0.844440, Micro-F1: 0.863947, Macro-F1: 0.800692
+2021/09/19 16:17:24 - INFO : Epoch 64 Time Cost 50.885265827178955 secs.
+2021/09/19 16:18:12 - INFO : loss: 0.647960
+2021/09/19 16:18:15 - INFO : Performance at epoch 65 --- Precision: 0.876748, Recall: 0.846369, Micro-F1: 0.861291, Macro-F1: 0.800050
+2021/09/19 16:18:15 - INFO : Epoch 65 Time Cost 51.120769023895264 secs.
+2021/09/19 16:19:03 - INFO : loss: 0.645638
+2021/09/19 16:19:06 - INFO : Performance at epoch 66 --- Precision: 0.883771, Recall: 0.843509, Micro-F1: 0.863171, Macro-F1: 0.800007
+2021/09/19 16:19:06 - INFO : Epoch 66 Time Cost 50.97259211540222 secs.
+2021/09/19 16:19:54 - INFO : loss: 0.651451
+2021/09/19 16:19:57 - INFO : Performance at epoch 67 --- Precision: 0.879345, Recall: 0.846302, Micro-F1: 0.862507, Macro-F1: 0.802072
+2021/09/19 16:19:57 - INFO : DEV Improve Macro-F1 0.8009926511703171% --> 0.8020723454893992%
+2021/09/19 16:19:59 - INFO : Achieve best Macro-F1 on dev set, evaluate on test set
+2021/09/19 16:20:03 - INFO : Performance at epoch 67 --- Precision: 0.875373, Recall: 0.842769, Micro-F1: 0.858762, Macro-F1: 0.801296
+2021/09/19 16:20:03 - INFO : TEST Improve Macro-F1 0.8009877240378098% --> 0.8012962106857339%
+2021/09/19 16:20:03 - INFO : Epoch 67 Time Cost 57.4638569355011 secs.
+2021/09/19 16:20:51 - INFO : loss: 0.649769
+2021/09/19 16:20:54 - INFO : Performance at epoch 68 --- Precision: 0.885281, Recall: 0.843243, Micro-F1: 0.863751, Macro-F1: 0.799754
+2021/09/19 16:20:54 - INFO : Epoch 68 Time Cost 50.738271713256836 secs.
+2021/09/19 16:21:42 - INFO : loss: 0.650474
+2021/09/19 16:21:45 - INFO : Performance at epoch 69 --- Precision: 0.878640, Recall: 0.850825, Micro-F1: 0.864509, Macro-F1: 0.803287
+2021/09/19 16:21:45 - INFO : DEV Improve Micro-F1 0.8641274617067835% --> 0.8645087173942424%
+2021/09/19 16:21:47 - INFO : Achieve best Micro-F1 on dev set, evaluate on test set
+2021/09/19 16:21:51 - INFO : Performance at epoch 69 --- Precision: 0.872287, Recall: 0.846760, Micro-F1: 0.859334, Macro-F1: 0.801909
+2021/09/19 16:21:51 - INFO : Epoch 69 Time Cost 57.27846598625183 secs.
+2021/09/19 16:22:39 - INFO : loss: 0.657118
+2021/09/19 16:22:42 - INFO : Performance at epoch 70 --- Precision: 0.882565, Recall: 0.846701, Micro-F1: 0.864261, Macro-F1: 0.801695
+2021/09/19 16:22:42 - INFO : Epoch 70 Time Cost 51.04473948478699 secs.
+2021/09/19 16:23:30 - INFO : loss: 0.648485
+2021/09/19 16:23:33 - INFO : Performance at epoch 71 --- Precision: 0.881196, Recall: 0.846502, Micro-F1: 0.863501, Macro-F1: 0.803511
+2021/09/19 16:23:33 - INFO : DEV Improve Macro-F1 0.8020723454893992% --> 0.8035110855735182%
+2021/09/19 16:23:35 - INFO : Achieve best Macro-F1 on dev set, evaluate on test set
+2021/09/19 16:23:40 - INFO : Performance at epoch 71 --- Precision: 0.873986, Recall: 0.842875, Micro-F1: 0.858149, Macro-F1: 0.801374
+2021/09/19 16:23:40 - INFO : TEST Improve Macro-F1 0.8012962106857339% --> 0.8013744860836788%
+2021/09/19 16:23:40 - INFO : Epoch 71 Time Cost 57.87033176422119 secs.
+2021/09/19 16:24:28 - INFO : loss: 0.649412
+2021/09/19 16:24:31 - INFO : Performance at epoch 72 --- Precision: 0.882954, Recall: 0.845371, Micro-F1: 0.863754, Macro-F1: 0.801808
+2021/09/19 16:24:31 - INFO : Epoch 72 Time Cost 50.933905363082886 secs.
+2021/09/19 16:25:19 - INFO : loss: 0.647586
+2021/09/19 16:25:22 - INFO : Performance at epoch 73 --- Precision: 0.883348, Recall: 0.843575, Micro-F1: 0.863004, Macro-F1: 0.800831
+2021/09/19 16:25:22 - INFO : Epoch 73 Time Cost 51.066946506500244 secs.
+2021/09/19 16:26:10 - INFO : loss: 0.648020
+2021/09/19 16:26:13 - INFO : Performance at epoch 74 --- Precision: 0.878496, Recall: 0.848231, Micro-F1: 0.863098, Macro-F1: 0.797664
+2021/09/19 16:26:13 - INFO : Epoch 74 Time Cost 50.81836199760437 secs.
+2021/09/19 16:27:01 - INFO : loss: 0.648476
+2021/09/19 16:27:04 - INFO : Performance at epoch 75 --- Precision: 0.876211, Recall: 0.847832, Micro-F1: 0.861788, Macro-F1: 0.799866
+2021/09/19 16:27:04 - INFO : Epoch 75 Time Cost 50.86790728569031 secs.
+2021/09/19 16:27:52 - INFO : loss: 0.652300
+2021/09/19 16:27:55 - INFO : Performance at epoch 76 --- Precision: 0.880006, Recall: 0.850625, Micro-F1: 0.865066, Macro-F1: 0.804352
+2021/09/19 16:27:55 - INFO : DEV Improve Micro-F1 0.8645087173942424% --> 0.8650659452147446%
+2021/09/19 16:27:57 - INFO : Achieve best Micro-F1 on dev set, evaluate on test set
+2021/09/19 16:28:02 - INFO : Performance at epoch 76 --- Precision: 0.875661, Recall: 0.845749, Micro-F1: 0.860445, Macro-F1: 0.802615
+2021/09/19 16:28:02 - INFO : TEST Improve Micro-F1 0.8598965035730909% --> 0.8604449737454664%
+2021/09/19 16:28:02 - INFO : Epoch 76 Time Cost 58.054603576660156 secs.
+2021/09/19 16:28:50 - INFO : loss: 0.651512
+2021/09/19 16:28:54 - INFO : Performance at epoch 77 --- Precision: 0.880726, Recall: 0.845172, Micro-F1: 0.862583, Macro-F1: 0.796848
+2021/09/19 16:28:54 - INFO : Epoch 77 Time Cost 51.56496715545654 secs.
+2021/09/19 16:29:41 - INFO : loss: 0.648030
+2021/09/19 16:29:45 - INFO : Performance at epoch 78 --- Precision: 0.879636, Recall: 0.848630, Micro-F1: 0.863855, Macro-F1: 0.800996
+2021/09/19 16:29:45 - INFO : Epoch 78 Time Cost 50.9659423828125 secs.
+2021/09/19 16:30:32 - INFO : loss: 0.642926
+2021/09/19 16:30:36 - INFO : Performance at epoch 79 --- Precision: 0.877544, Recall: 0.848829, Micro-F1: 0.862948, Macro-F1: 0.802400
+2021/09/19 16:30:36 - INFO : Epoch 79 Time Cost 50.921682596206665 secs.
+2021/09/19 16:31:23 - INFO : loss: 0.644755
+2021/09/19 16:31:26 - INFO : Performance at epoch 80 --- Precision: 0.877509, Recall: 0.849029, Micro-F1: 0.863034, Macro-F1: 0.802175
+2021/09/19 16:31:26 - INFO : Epoch 80 Time Cost 50.959372997283936 secs.
+2021/09/19 16:32:14 - INFO : loss: 0.648428
+2021/09/19 16:32:17 - INFO : Performance at epoch 81 --- Precision: 0.877076, Recall: 0.849894, Micro-F1: 0.863271, Macro-F1: 0.800015
+2021/09/19 16:32:17 - WARNING : Performance has not been improved for 5 epochs, updating learning rate
+2021/09/19 16:32:17 - WARNING : Learning rate update 0.0001--->0.0001
+2021/09/19 16:32:17 - INFO : Epoch 81 Time Cost 50.81770873069763 secs.
+2021/09/19 16:33:05 - INFO : loss: 0.655489
+2021/09/19 16:33:08 - INFO : Performance at epoch 82 --- Precision: 0.882573, Recall: 0.846768, Micro-F1: 0.864300, Macro-F1: 0.800259
+2021/09/19 16:33:08 - INFO : Epoch 82 Time Cost 50.8099250793457 secs.
+2021/09/19 16:33:56 - INFO : loss: 0.650870
+2021/09/19 16:33:59 - INFO : Performance at epoch 83 --- Precision: 0.879611, Recall: 0.848430, Micro-F1: 0.863739, Macro-F1: 0.801250
+2021/09/19 16:33:59 - INFO : Epoch 83 Time Cost 50.92362332344055 secs.
+2021/09/19 16:34:47 - INFO : loss: 0.646364
+2021/09/19 16:34:50 - INFO : Performance at epoch 84 --- Precision: 0.877292, Recall: 0.849694, Micro-F1: 0.863272, Macro-F1: 0.801365
+2021/09/19 16:34:50 - INFO : Epoch 84 Time Cost 51.00782370567322 secs.
+2021/09/19 16:35:38 - INFO : loss: 0.647166
+2021/09/19 16:35:41 - INFO : Performance at epoch 85 --- Precision: 0.877895, Recall: 0.852088, Micro-F1: 0.864799, Macro-F1: 0.803269
+2021/09/19 16:35:41 - INFO : Epoch 85 Time Cost 51.03739094734192 secs.
+2021/09/19 16:36:28 - INFO : loss: 0.641517
+2021/09/19 16:36:32 - INFO : Performance at epoch 86 --- Precision: 0.874149, Recall: 0.853684, Micro-F1: 0.863795, Macro-F1: 0.801901
+2021/09/19 16:36:32 - WARNING : Performance has not been improved for 10 epochs, updating learning rate
+2021/09/19 16:36:32 - WARNING : Learning rate update 0.0001--->0.0001
+2021/09/19 16:36:32 - INFO : Epoch 86 Time Cost 50.83734607696533 secs.
+2021/09/19 16:37:19 - INFO : loss: 0.650815
+2021/09/19 16:37:23 - INFO : Performance at epoch 87 --- Precision: 0.874778, Recall: 0.852088, Micro-F1: 0.863284, Macro-F1: 0.801571
+2021/09/19 16:37:23 - INFO : Epoch 87 Time Cost 50.78548288345337 secs.
+2021/09/19 16:38:10 - INFO : loss: 0.648132
+2021/09/19 16:38:14 - INFO : Performance at epoch 88 --- Precision: 0.875803, Recall: 0.852155, Micro-F1: 0.863817, Macro-F1: 0.802533
+2021/09/19 16:38:14 - INFO : Epoch 88 Time Cost 50.825886726379395 secs.
+2021/09/19 16:39:01 - INFO : loss: 0.643100
+2021/09/19 16:39:04 - INFO : Performance at epoch 89 --- Precision: 0.878738, Recall: 0.852088, Micro-F1: 0.865208, Macro-F1: 0.804004
+2021/09/19 16:39:04 - INFO : DEV Improve Micro-F1 0.8650659452147446% --> 0.8652079956780119%
+2021/09/19 16:39:07 - INFO : Achieve best Micro-F1 on dev set, evaluate on test set
+2021/09/19 16:39:12 - INFO : Performance at epoch 89 --- Precision: 0.871167, Recall: 0.846600, Micro-F1: 0.858708, Macro-F1: 0.800091
+2021/09/19 16:39:12 - INFO : Epoch 89 Time Cost 58.14135789871216 secs.
+2021/09/19 16:39:59 - INFO : loss: 0.649304
+2021/09/19 16:40:03 - INFO : Performance at epoch 90 --- Precision: 0.871591, Recall: 0.854549, Micro-F1: 0.862986, Macro-F1: 0.801255
+2021/09/19 16:40:03 - INFO : Epoch 90 Time Cost 51.085040807724 secs.
+2021/09/19 16:40:50 - INFO : loss: 0.646426
+2021/09/19 16:40:54 - INFO : Performance at epoch 91 --- Precision: 0.879746, Recall: 0.849029, Micro-F1: 0.864115, Macro-F1: 0.802328
+2021/09/19 16:40:54 - INFO : Epoch 91 Time Cost 50.88297724723816 secs.
+2021/09/19 16:41:41 - INFO : loss: 0.651800
+2021/09/19 16:41:45 - INFO : Performance at epoch 92 --- Precision: 0.876265, Recall: 0.852487, Micro-F1: 0.864213, Macro-F1: 0.800563
+2021/09/19 16:41:45 - INFO : Epoch 92 Time Cost 50.92233872413635 secs.
+2021/09/19 16:42:32 - INFO : loss: 0.648895
+2021/09/19 16:42:36 - INFO : Performance at epoch 93 --- Precision: 0.877795, Recall: 0.853684, Micro-F1: 0.865572, Macro-F1: 0.802833
+2021/09/19 16:42:36 - INFO : DEV Improve Micro-F1 0.8652079956780119% --> 0.865572001753262%
+2021/09/19 16:42:38 - INFO : Achieve best Micro-F1 on dev set, evaluate on test set
+2021/09/19 16:42:42 - INFO : Performance at epoch 93 --- Precision: 0.870360, Recall: 0.848409, Micro-F1: 0.859244, Macro-F1: 0.802128
+2021/09/19 16:42:42 - INFO : Epoch 93 Time Cost 57.49622917175293 secs.
+2021/09/19 16:43:30 - INFO : loss: 0.650711
+2021/09/19 16:43:33 - INFO : Performance at epoch 94 --- Precision: 0.873952, Recall: 0.853086, Micro-F1: 0.863393, Macro-F1: 0.802012
+2021/09/19 16:43:33 - INFO : Epoch 94 Time Cost 51.0536572933197 secs.
+2021/09/19 16:44:20 - INFO : loss: 0.646465
+2021/09/19 16:44:24 - INFO : Performance at epoch 95 --- Precision: 0.876877, Recall: 0.850692, Micro-F1: 0.863586, Macro-F1: 0.799910
+2021/09/19 16:44:24 - INFO : Epoch 95 Time Cost 50.85914969444275 secs.
+2021/09/19 16:45:11 - INFO : loss: 0.644620
+2021/09/19 16:45:15 - INFO : Performance at epoch 96 --- Precision: 0.875982, Recall: 0.852620, Micro-F1: 0.864143, Macro-F1: 0.802082
+2021/09/19 16:45:15 - INFO : Epoch 96 Time Cost 51.08505201339722 secs.
+2021/09/19 16:46:03 - INFO : loss: 0.646037
+2021/09/19 16:46:06 - INFO : Performance at epoch 97 --- Precision: 0.872994, Recall: 0.853951, Micro-F1: 0.863367, Macro-F1: 0.801080
+2021/09/19 16:46:06 - INFO : Epoch 97 Time Cost 50.964874029159546 secs.
+2021/09/19 16:46:54 - INFO : loss: 0.644826
+2021/09/19 16:46:57 - INFO : Performance at epoch 98 --- Precision: 0.873460, Recall: 0.853418, Micro-F1: 0.863323, Macro-F1: 0.803373
+2021/09/19 16:46:57 - WARNING : Performance has not been improved for 5 epochs, updating learning rate
+2021/09/19 16:46:57 - WARNING : Learning rate update 0.0001--->0.0001
+2021/09/19 16:46:57 - INFO : Epoch 98 Time Cost 51.08139944076538 secs.
+2021/09/19 16:47:45 - INFO : loss: 0.647984
+2021/09/19 16:47:48 - INFO : Performance at epoch 99 --- Precision: 0.873858, Recall: 0.852354, Micro-F1: 0.862972, Macro-F1: 0.801454
+2021/09/19 16:47:48 - INFO : Epoch 99 Time Cost 51.11568832397461 secs.
+2021/09/19 16:48:37 - INFO : loss: 0.649471
+2021/09/19 16:48:40 - INFO : Performance at epoch 100 --- Precision: 0.875188, Recall: 0.852487, Micro-F1: 0.863688, Macro-F1: 0.803470
+2021/09/19 16:48:40 - INFO : Epoch 100 Time Cost 51.81536650657654 secs.
+2021/09/19 16:49:28 - INFO : loss: 0.651135
+2021/09/19 16:49:31 - INFO : Performance at epoch 101 --- Precision: 0.873767, Recall: 0.854416, Micro-F1: 0.863983, Macro-F1: 0.803342
+2021/09/19 16:49:32 - INFO : Epoch 101 Time Cost 51.720821380615234 secs.
+2021/09/19 16:50:20 - INFO : loss: 0.645306
+2021/09/19 16:50:23 - INFO : Performance at epoch 102 --- Precision: 0.876354, Recall: 0.850359, Micro-F1: 0.863161, Macro-F1: 0.801768
+2021/09/19 16:50:23 - INFO : Epoch 102 Time Cost 51.5281126499176 secs.
+2021/09/19 16:51:11 - INFO : loss: 0.651983
+2021/09/19 16:51:15 - INFO : Performance at epoch 103 --- Precision: 0.872410, Recall: 0.854017, Micro-F1: 0.863115, Macro-F1: 0.802187
+2021/09/19 16:51:15 - WARNING : Performance has not been improved for 10 epochs, updating learning rate
+2021/09/19 16:51:15 - WARNING : Learning rate update 0.0001--->0.0001
+2021/09/19 16:51:15 - INFO : Epoch 103 Time Cost 51.72686696052551 secs.
+2021/09/19 16:52:03 - INFO : loss: 0.639993
+2021/09/19 16:52:07 - INFO : Performance at epoch 104 --- Precision: 0.876255, Recall: 0.853352, Micro-F1: 0.864652, Macro-F1: 0.801825
+2021/09/19 16:52:07 - INFO : Epoch 104 Time Cost 51.842517137527466 secs.
+2021/09/19 16:52:55 - INFO : loss: 0.649910
+2021/09/19 16:52:59 - INFO : Performance at epoch 105 --- Precision: 0.875555, Recall: 0.852554, Micro-F1: 0.863901, Macro-F1: 0.803218
+2021/09/19 16:52:59 - INFO : Epoch 105 Time Cost 52.03946828842163 secs.
+2021/09/19 16:53:47 - INFO : loss: 0.650988
+2021/09/19 16:53:51 - INFO : Performance at epoch 106 --- Precision: 0.872698, Recall: 0.853951, Micro-F1: 0.863222, Macro-F1: 0.799487
+2021/09/19 16:53:51 - INFO : Epoch 106 Time Cost 51.91013288497925 secs.
+2021/09/19 16:54:39 - INFO : loss: 0.641555
+2021/09/19 16:54:43 - INFO : Performance at epoch 107 --- Precision: 0.877446, Recall: 0.852820, Micro-F1: 0.864958, Macro-F1: 0.802366
+2021/09/19 16:54:43 - INFO : Epoch 107 Time Cost 51.7418417930603 secs.
+2021/09/19 16:55:31 - INFO : loss: 0.644406
+2021/09/19 16:55:35 - INFO : Performance at epoch 108 --- Precision: 0.874804, Recall: 0.854616, Micro-F1: 0.864592, Macro-F1: 0.802817
+2021/09/19 16:55:35 - WARNING : Performance has not been improved for 15 epochs, updating learning rate
+2021/09/19 16:55:35 - WARNING : Learning rate update 0.0001--->0.0001
+2021/09/19 16:55:35 - INFO : Epoch 108 Time Cost 52.003528118133545 secs.
+2021/09/19 16:56:23 - INFO : loss: 0.651219
+2021/09/19 16:56:27 - INFO : Performance at epoch 109 --- Precision: 0.865153, Recall: 0.858939, Micro-F1: 0.862034, Macro-F1: 0.801882
+2021/09/19 16:56:27 - INFO : Epoch 109 Time Cost 52.052950382232666 secs.
+2021/09/19 16:57:15 - INFO : loss: 0.642946
+2021/09/19 16:57:19 - INFO : Performance at epoch 110 --- Precision: 0.870966, Recall: 0.856079, Micro-F1: 0.863458, Macro-F1: 0.799570
+2021/09/19 16:57:19 - INFO : Epoch 110 Time Cost 52.07162261009216 secs.
+2021/09/19 16:58:07 - INFO : loss: 0.645344
+2021/09/19 16:58:11 - INFO : Performance at epoch 111 --- Precision: 0.873643, Recall: 0.850692, Micro-F1: 0.862014, Macro-F1: 0.796639
+2021/09/19 16:58:11 - INFO : Epoch 111 Time Cost 51.91607069969177 secs.
+2021/09/19 16:58:59 - INFO : loss: 0.655042
+2021/09/19 16:59:03 - INFO : Performance at epoch 112 --- Precision: 0.876819, Recall: 0.853551, Micro-F1: 0.865029, Macro-F1: 0.803536
+2021/09/19 16:59:03 - INFO : DEV Improve Macro-F1 0.8035110855735182% --> 0.8035359290552623%
+2021/09/19 16:59:05 - INFO : Achieve best Macro-F1 on dev set, evaluate on test set
+2021/09/19 16:59:09 - INFO : Performance at epoch 112 --- Precision: 0.871252, Recall: 0.847238, Micro-F1: 0.859077, Macro-F1: 0.804205
+2021/09/19 16:59:09 - INFO : TEST Improve Macro-F1 0.8013744860836788% --> 0.8042048831634716%
+2021/09/19 16:59:09 - INFO : Epoch 112 Time Cost 58.78031516075134 secs.
+2021/09/19 16:59:58 - INFO : loss: 0.645952
+2021/09/19 17:00:01 - INFO : Performance at epoch 113 --- Precision: 0.876897, Recall: 0.853219, Micro-F1: 0.864896, Macro-F1: 0.804574
+2021/09/19 17:00:01 - INFO : DEV Improve Macro-F1 0.8035359290552623% --> 0.8045739742335468%
+2021/09/19 17:00:03 - INFO : Achieve best Macro-F1 on dev set, evaluate on test set
+2021/09/19 17:00:08 - INFO : Performance at epoch 113 --- Precision: 0.871584, Recall: 0.850112, Micro-F1: 0.860714, Macro-F1: 0.804023
+2021/09/19 17:00:08 - INFO : Epoch 113 Time Cost 58.54967737197876 secs.
+2021/09/19 17:00:56 - INFO : loss: 0.644690
+2021/09/19 17:01:00 - INFO : Performance at epoch 114 --- Precision: 0.876534, Recall: 0.850359, Micro-F1: 0.863248, Macro-F1: 0.803198
+2021/09/19 17:01:00 - INFO : Epoch 114 Time Cost 51.896740198135376 secs.
+2021/09/19 17:01:48 - INFO : loss: 0.651997
+2021/09/19 17:01:52 - INFO : Performance at epoch 115 --- Precision: 0.873285, Recall: 0.850692, Micro-F1: 0.861840, Macro-F1: 0.797498
+2021/09/19 17:01:52 - INFO : Epoch 115 Time Cost 51.87267351150513 secs.
+2021/09/19 17:02:40 - INFO : loss: 0.640650
+2021/09/19 17:02:44 - INFO : Performance at epoch 116 --- Precision: 0.876905, Recall: 0.853285, Micro-F1: 0.864934, Macro-F1: 0.804186
+2021/09/19 17:02:44 - INFO : Epoch 116 Time Cost 51.886292934417725 secs.
+2021/09/19 17:03:32 - INFO : loss: 0.648080
+2021/09/19 17:03:36 - INFO : Performance at epoch 117 --- Precision: 0.873410, Recall: 0.853951, Micro-F1: 0.863571, Macro-F1: 0.803499
+2021/09/19 17:03:36 - INFO : Epoch 117 Time Cost 52.17348337173462 secs.
+2021/09/19 17:04:24 - INFO : loss: 0.646765
+2021/09/19 17:04:28 - INFO : Performance at epoch 118 --- Precision: 0.869801, Recall: 0.852620, Micro-F1: 0.861125, Macro-F1: 0.801592
+2021/09/19 17:04:28 - WARNING : Performance has not been improved for 5 epochs, updating learning rate
+2021/09/19 17:04:28 - WARNING : Learning rate update 0.0001--->0.0001
+2021/09/19 17:04:28 - INFO : Epoch 118 Time Cost 51.843709230422974 secs.
+2021/09/19 17:05:16 - INFO : loss: 0.639895
+2021/09/19 17:05:19 - INFO : Performance at epoch 119 --- Precision: 0.878696, Recall: 0.851756, Micro-F1: 0.865016, Macro-F1: 0.801317
+2021/09/19 17:05:20 - INFO : Epoch 119 Time Cost 51.921753883361816 secs.
+2021/09/19 17:06:07 - INFO : loss: 0.649364
+2021/09/19 17:06:11 - INFO : Performance at epoch 120 --- Precision: 0.876051, Recall: 0.852687, Micro-F1: 0.864211, Macro-F1: 0.800946
+2021/09/19 17:06:11 - INFO : Epoch 120 Time Cost 51.302937030792236 secs.
+2021/09/19 17:06:58 - INFO : loss: 0.646416
+2021/09/19 17:07:02 - INFO : Performance at epoch 121 --- Precision: 0.878938, Recall: 0.851756, Micro-F1: 0.865133, Macro-F1: 0.803609
+2021/09/19 17:07:02 - INFO : Epoch 121 Time Cost 50.85813927650452 secs.
+2021/09/19 17:07:49 - INFO : loss: 0.651990
+2021/09/19 17:07:53 - INFO : Performance at epoch 122 --- Precision: 0.879000, Recall: 0.853219, Micro-F1: 0.865917, Macro-F1: 0.803140
+2021/09/19 17:07:53 - INFO : DEV Improve Micro-F1 0.865572001753262% --> 0.8659174513178766%
+2021/09/19 17:07:55 - INFO : Achieve best Micro-F1 on dev set, evaluate on test set
+2021/09/19 17:08:00 - INFO : Performance at epoch 122 --- Precision: 0.872267, Recall: 0.849154, Micro-F1: 0.860555, Macro-F1: 0.804341
+2021/09/19 17:08:00 - INFO : TEST Improve Micro-F1 0.8604449737454664% --> 0.8605554057697493%
+2021/09/19 17:08:00 - INFO : Epoch 122 Time Cost 58.028122663497925 secs.
+2021/09/19 17:08:47 - INFO : loss: 0.648946
+2021/09/19 17:08:51 - INFO : Performance at epoch 123 --- Precision: 0.875306, Recall: 0.854815, Micro-F1: 0.864939, Macro-F1: 0.801984
+2021/09/19 17:08:51 - INFO : Epoch 123 Time Cost 51.17396593093872 secs.
+2021/09/19 17:09:38 - INFO : loss: 0.647093
+2021/09/19 17:09:42 - INFO : Performance at epoch 124 --- Precision: 0.874213, Recall: 0.850027, Micro-F1: 0.861950, Macro-F1: 0.800269
+2021/09/19 17:09:42 - INFO : Epoch 124 Time Cost 51.11860108375549 secs.
+2021/09/19 17:10:30 - INFO : loss: 0.644569
+2021/09/19 17:10:33 - INFO : Performance at epoch 125 --- Precision: 0.874754, Recall: 0.855613, Micro-F1: 0.865077, Macro-F1: 0.804480
+2021/09/19 17:10:33 - INFO : Epoch 125 Time Cost 51.057799339294434 secs.
+2021/09/19 17:11:21 - INFO : loss: 0.649552
+2021/09/19 17:11:24 - INFO : Performance at epoch 126 --- Precision: 0.874659, Recall: 0.853485, Micro-F1: 0.863942, Macro-F1: 0.802730
+2021/09/19 17:11:24 - INFO : Epoch 126 Time Cost 50.954681158065796 secs.
+2021/09/19 17:12:12 - INFO : loss: 0.647954
+2021/09/19 17:12:15 - INFO : Performance at epoch 127 --- Precision: 0.871837, Recall: 0.854616, Micro-F1: 0.863140, Macro-F1: 0.798718
+2021/09/19 17:12:15 - WARNING : Performance has not been improved for 5 epochs, updating learning rate
+2021/09/19 17:12:15 - WARNING : Learning rate update 0.0001--->0.0001
+2021/09/19 17:12:15 - INFO : Epoch 127 Time Cost 51.079756021499634 secs.
+2021/09/19 17:13:03 - INFO : loss: 0.655342
+2021/09/19 17:13:06 - INFO : Performance at epoch 128 --- Precision: 0.870175, Recall: 0.854549, Micro-F1: 0.862291, Macro-F1: 0.799525
+2021/09/19 17:13:06 - INFO : Epoch 128 Time Cost 50.85967040061951 secs.
+2021/09/19 17:13:54 - INFO : loss: 0.648607
+2021/09/19 17:13:57 - INFO : Performance at epoch 129 --- Precision: 0.874549, Recall: 0.854017, Micro-F1: 0.864161, Macro-F1: 0.799647
+2021/09/19 17:13:57 - INFO : Epoch 129 Time Cost 51.03740334510803 secs.
+2021/09/19 17:14:45 - INFO : loss: 0.643122
+2021/09/19 17:14:48 - INFO : Performance at epoch 130 --- Precision: 0.874838, Recall: 0.854416, Micro-F1: 0.864507, Macro-F1: 0.804393
+2021/09/19 17:14:48 - INFO : Epoch 130 Time Cost 51.1010799407959 secs.
+2021/09/19 17:15:36 - INFO : loss: 0.646339
+2021/09/19 17:15:39 - INFO : Performance at epoch 131 --- Precision: 0.872719, Recall: 0.855480, Micro-F1: 0.864013, Macro-F1: 0.804722
+2021/09/19 17:15:39 - INFO : DEV Improve Macro-F1 0.8045739742335468% --> 0.8047219446539491%
+2021/09/19 17:15:41 - INFO : Achieve best Macro-F1 on dev set, evaluate on test set
+2021/09/19 17:15:46 - INFO : Performance at epoch 131 --- Precision: 0.867435, Recall: 0.849526, Micro-F1: 0.858387, Macro-F1: 0.800070
+2021/09/19 17:15:46 - INFO : Epoch 131 Time Cost 57.83248233795166 secs.
+2021/09/19 17:16:33 - INFO : loss: 0.644775
+2021/09/19 17:16:37 - INFO : Performance at epoch 132 --- Precision: 0.871997, Recall: 0.854483, Micro-F1: 0.863151, Macro-F1: 0.804445
+2021/09/19 17:16:37 - INFO : Epoch 132 Time Cost 50.82330393791199 secs.
+2021/09/19 17:17:25 - INFO : loss: 0.649399
+2021/09/19 17:17:28 - INFO : Performance at epoch 133 --- Precision: 0.873494, Recall: 0.848630, Micro-F1: 0.860882, Macro-F1: 0.800333
+2021/09/19 17:17:28 - INFO : Epoch 133 Time Cost 51.23644471168518 secs.
+2021/09/19 17:18:15 - INFO : loss: 0.647655
+2021/09/19 17:18:19 - INFO : Performance at epoch 134 --- Precision: 0.875985, Recall: 0.849827, Micro-F1: 0.862708, Macro-F1: 0.800190
+2021/09/19 17:18:19 - INFO : Epoch 134 Time Cost 50.942156076431274 secs.
+2021/09/19 17:19:06 - INFO : loss: 0.649658
+2021/09/19 17:19:10 - INFO : Performance at epoch 135 --- Precision: 0.874693, Recall: 0.851889, Micro-F1: 0.863140, Macro-F1: 0.801991
+2021/09/19 17:19:10 - INFO : Epoch 135 Time Cost 50.98944616317749 secs.
+2021/09/19 17:19:57 - INFO : loss: 0.638225
+2021/09/19 17:20:01 - INFO : Performance at epoch 136 --- Precision: 0.871606, Recall: 0.858273, Micro-F1: 0.864888, Macro-F1: 0.804859
+2021/09/19 17:20:01 - INFO : DEV Improve Macro-F1 0.8047219446539491% --> 0.8048587747409625%
+2021/09/19 17:20:03 - INFO : Achieve best Macro-F1 on dev set, evaluate on test set
+2021/09/19 17:20:07 - INFO : Performance at epoch 136 --- Precision: 0.864996, Recall: 0.850591, Micro-F1: 0.857733, Macro-F1: 0.800244
+2021/09/19 17:20:07 - INFO : Epoch 136 Time Cost 57.56108903884888 secs.
+2021/09/19 17:20:55 - INFO : loss: 0.648637
+2021/09/19 17:20:58 - INFO : Performance at epoch 137 --- Precision: 0.873225, Recall: 0.854815, Micro-F1: 0.863922, Macro-F1: 0.800724
+2021/09/19 17:20:58 - INFO : Epoch 137 Time Cost 50.99283480644226 secs.
+2021/09/19 17:21:46 - INFO : loss: 0.647322
+2021/09/19 17:21:49 - INFO : Performance at epoch 138 --- Precision: 0.874208, Recall: 0.853684, Micro-F1: 0.863824, Macro-F1: 0.805079
+2021/09/19 17:21:49 - INFO : DEV Improve Macro-F1 0.8048587747409625% --> 0.8050794737911707%
+2021/09/19 17:21:52 - INFO : Achieve best Macro-F1 on dev set, evaluate on test set
+2021/09/19 17:21:56 - INFO : Performance at epoch 138 --- Precision: 0.867977, Recall: 0.850750, Micro-F1: 0.859277, Macro-F1: 0.803984
+2021/09/19 17:21:56 - INFO : Epoch 138 Time Cost 57.80511522293091 secs.
+2021/09/19 17:22:44 - INFO : loss: 0.642324
+2021/09/19 17:22:47 - INFO : Performance at epoch 139 --- Precision: 0.871448, Recall: 0.856611, Micro-F1: 0.863966, Macro-F1: 0.803245
+2021/09/19 17:22:47 - INFO : Epoch 139 Time Cost 51.04339671134949 secs.
+2021/09/19 17:23:35 - INFO : loss: 0.640880
+2021/09/19 17:23:38 - INFO : Performance at epoch 140 --- Precision: 0.874132, Recall: 0.854017, Micro-F1: 0.863957, Macro-F1: 0.804813
+2021/09/19 17:23:38 - INFO : Epoch 140 Time Cost 51.12612533569336 secs.
+2021/09/19 17:24:26 - INFO : loss: 0.651430
+2021/09/19 17:24:29 - INFO : Performance at epoch 141 --- Precision: 0.872451, Recall: 0.850692, Micro-F1: 0.861434, Macro-F1: 0.799459
+2021/09/19 17:24:29 - INFO : Epoch 141 Time Cost 51.007964849472046 secs.
+2021/09/19 17:25:17 - INFO : loss: 0.650573
+2021/09/19 17:25:20 - INFO : Performance at epoch 142 --- Precision: 0.872430, Recall: 0.852354, Micro-F1: 0.862275, Macro-F1: 0.802548
+2021/09/19 17:25:20 - INFO : Epoch 142 Time Cost 50.96510887145996 secs.
+2021/09/19 17:26:08 - INFO : loss: 0.643856
+2021/09/19 17:26:11 - INFO : Performance at epoch 143 --- Precision: 0.873551, Recall: 0.852288, Micro-F1: 0.862789, Macro-F1: 0.802829
+2021/09/19 17:26:11 - WARNING : Performance has not been improved for 5 epochs, updating learning rate
+2021/09/19 17:26:11 - WARNING : Learning rate update 0.0001--->0.0001
+2021/09/19 17:26:11 - INFO : Epoch 143 Time Cost 50.98906683921814 secs.
+2021/09/19 17:26:59 - INFO : loss: 0.648168
+2021/09/19 17:27:03 - INFO : Performance at epoch 144 --- Precision: 0.873559, Recall: 0.851889, Micro-F1: 0.862588, Macro-F1: 0.801049
+2021/09/19 17:27:03 - INFO : Epoch 144 Time Cost 51.176440477371216 secs.
+2021/09/19 17:27:50 - INFO : loss: 0.640619
+2021/09/19 17:27:54 - INFO : Performance at epoch 145 --- Precision: 0.875460, Recall: 0.853684, Micro-F1: 0.864435, Macro-F1: 0.801311
+2021/09/19 17:27:54 - INFO : Epoch 145 Time Cost 51.090718030929565 secs.
+2021/09/19 17:28:41 - INFO : loss: 0.644462
+2021/09/19 17:28:45 - INFO : Performance at epoch 146 --- Precision: 0.872923, Recall: 0.856145, Micro-F1: 0.864453, Macro-F1: 0.800275
+2021/09/19 17:28:45 - INFO : Epoch 146 Time Cost 51.10653901100159 secs.
+2021/09/19 17:29:32 - INFO : loss: 0.642620
+2021/09/19 17:29:36 - INFO : Performance at epoch 147 --- Precision: 0.874132, Recall: 0.853551, Micro-F1: 0.863719, Macro-F1: 0.800343
+2021/09/19 17:29:36 - INFO : Epoch 147 Time Cost 50.93487501144409 secs.
+2021/09/19 17:30:23 - INFO : loss: 0.637056
+2021/09/19 17:30:27 - INFO : Performance at epoch 148 --- Precision: 0.873422, Recall: 0.855879, Micro-F1: 0.864562, Macro-F1: 0.801832
+2021/09/19 17:30:27 - WARNING : Performance has not been improved for 10 epochs, updating learning rate
+2021/09/19 17:30:27 - WARNING : Learning rate update 0.0001--->0.0001
+2021/09/19 17:30:27 - INFO : Epoch 148 Time Cost 50.922367095947266 secs.
+2021/09/19 17:31:14 - INFO : loss: 0.650986
+2021/09/19 17:31:18 - INFO : Performance at epoch 149 --- Precision: 0.876443, Recall: 0.853418, Micro-F1: 0.864777, Macro-F1: 0.801482
+2021/09/19 17:31:18 - INFO : Epoch 149 Time Cost 51.02989673614502 secs.
